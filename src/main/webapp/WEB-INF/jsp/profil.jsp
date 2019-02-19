@@ -91,6 +91,11 @@
 		</td>
 	</tr>
 </table>
+<div>
+	<h1>
+		arek to cipka po zalogowaniu
+	</h1>
+</div>
 
 
 </body>
