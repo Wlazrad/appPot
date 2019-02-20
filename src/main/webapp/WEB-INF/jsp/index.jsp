@@ -10,5 +10,15 @@
 </head>
 <body>
 <%@include file="/WEB-INF/incl/menu.app" %>
+<div>
+
+    <h1><s:message code="info.name"></s:message></h1>
+    <h3><s:message code="info.description1"></s:message></h3>
+    <h3><s:message code="info.description2"></s:message></h3>
+
+
+    <%@include file="/WEB-INF/incl/footer.app" %>
+
+</div>
 </body>
 </html>
