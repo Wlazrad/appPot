@@ -11,10 +11,12 @@
 		<sec:authorize access="hasRole('ANONYMOUS')">
 			<a href="/login"><s:message code="menu.login"/></a>&nbsp;&nbsp;
 			<a href="/register"><s:message code="menu.register"/></a>&nbsp;&nbsp;
+			<a href="/addexpert"><s:message code="menu.addexpert"/></a>&nbsp;&nbsp;
 		</sec:authorize>
 		<sec:authorize access="isAuthenticated()">
 			<a href="/profil"><s:message code="menu.profil"/></a>
-			<a href="/logout"><s:message code="menu.logout"/></a>	
+			<a href="/logout"><s:message code="menu.logout"/></a>
+			<a href="/addexpert"><s:message code="menu.addexpert"/></a>
 		</sec:authorize>
 		</td>	
 	</tr>
