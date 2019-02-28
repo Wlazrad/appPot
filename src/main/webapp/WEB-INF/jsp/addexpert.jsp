@@ -8,8 +8,17 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <title><s:message code="logowanie.pageName" /></title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <!-- css custom styling-->
+    <link rel="stylesheet" href="${pageContext.request.contextPath}/resources/style.css" type="text/css" />
+
+    <%--<link rel="stylesheet" type="text/css" href="/resources/css/style.css" />--%>
 </head>
 <body>
 <%@include file="/WEB-INF/incl/menu.app" %>
@@ -35,9 +44,22 @@
         </tr>
 
         <tr>
-            <td width="130" align="right"><s:message code="expert.location"/></td>
-            <td width="270" align="left"><sf:input path="location"
-                                                   size="28" /></td>
+            <%--<td width="130" align="right"><s:message code="expert.location"/></td>--%>
+            <%--<td width="270" align="left"><sf:input path="location"--%>
+
+                                                   <%--size="28" /></td>--%>
+
+                <td width="130" align="right"><s:message code="expert.location"/></td>
+                <td width="270" align="left">
+            <sf:select class="custom-select" id="inputGroupSelect02" path="location">
+                <option selected>Choose...</option>
+                <option value="Warszawa">Warszawa</option>
+                <option value="Lublin">Lublin</option>
+                <option value="Okolice Warszawy">Okolice Warszawy</option>
+                <option value="Okolice Lublina">Okolice Lublina</option>
+                <option value="Cała Polska">Cała Polska</option>
+            </sf:select>
+        </td>
         </tr>
 
         <tr>
@@ -54,8 +76,8 @@
 
         <tr>
             <td colspan="2" align="center" bgcolor="#fff">
-                <input type="submit" value="<s:message code="button.register"/>" />
-                <input type="button" value="<s:message code="button.cancel"/>"
+                <input type="submit" class="btn btn-primary" value="<s:message code="button.register"/>" />
+                <input type="button" class="btn btn-primary" value="<s:message code="button.cancel"/>"
                        onclick="window.location.href='${pageContext.request.contextPath}/'"/>
             </td>
         </tr>

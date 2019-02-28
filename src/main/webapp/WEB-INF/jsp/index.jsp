@@ -44,13 +44,15 @@
 <div>
     <%@include file="/WEB-INF/incl/menu.app" %>
 </div>
-<div>
+<div style="color: #614eda">
 <p><s:message code="info.description2"/></p>
 </div>
 
-<div type="text" style="width: 1000px; padding: 2px;">
-<input type="text" id="searchString"/>&nbsp;&nbsp;<input type="button" value="<s:message code="button.search"/>"
-                                                         onclick="startSerach();"/>br/>
+
+
+<div type="text" style="width: 1000px; padding: 10px;" class="input-group mb-3">
+<input type="text" id="searchString"/>&nbsp;&nbsp;<input type="button" class="btn btn-primary" value="<s:message code="button.search"/>"
+                                                         onclick="startSerach();"/>
     <span id="errorSearch" style="color: red;"></span>
 </div>
 
@@ -73,7 +75,6 @@
         <td align="center"  width="150" align="center"><c:out value="${e.years }" /></td>
         <td align="center"  width="150" align="center"><c:out value="${e.location }" /></td>
         <td align="center"  width="150" align="center"><c:out value="${e.project }" /></td>
-
     </tr>
     </c:forEach>
 
