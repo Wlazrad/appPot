@@ -9,9 +9,15 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title><s:message code="menu.register"/></title>
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
 </head>
 <body>
+<div>
 <%@include file="/WEB-INF/incl/menu.app" %>
+</div>
 
 <h2><s:message code="menu.register"/></h2>
 
@@ -62,8 +68,8 @@
 
 			<tr>
 				<td colspan="2" align="center" bgcolor="#fff">
-					<input type="submit" value="<s:message code="button.register"/>" />
-					<input type="button" value="<s:message code="button.cancel"/>" 
+					<input class="form-control" type="submit" value="<s:message code="button.register"/>" />
+					<input class="form-control" type="button"  value="<s:message code="button.cancel"/>"
 						onclick="window.location.href='${pageContext.request.contextPath}/'"/>
 				</td>
 			</tr>

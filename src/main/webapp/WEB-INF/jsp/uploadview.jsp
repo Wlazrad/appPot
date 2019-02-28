@@ -15,9 +15,11 @@
 <%@include file="/WEB-INF/incl/menu.app" %>
 <h2><s:message code="admin.users.importUsers"/></h2>
 
-<sf:form id="uploadForm" action="${pageContext.request.contextPath}/admin/users/upload"
+
+
+<sf:form id="uploadForm" action="${pageContext.request.contextPath}/upload"
          method="POST" modelAttribute="fileupload" enctype="multipart/form-data">
-    <input type="file" name="filename" id="filename"/>
+    <input type="file" name="files" id="filename"/>
     <input type="submit" value="<s:message code="button.upload"/>"/>
 </sf:form>
 </body>

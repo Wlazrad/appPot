@@ -8,6 +8,8 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title><s:message code="profil.userDane"/></title>
+
+
 </head>
 <body>
 <%@include file="/WEB-INF/incl/menu.app" %>
@@ -91,11 +93,7 @@
 		</td>
 	</tr>
 </table>
-<div>
-	<h1>
-		arek to cipka po zalogowaniu
-	</h1>
-</div>
+
 
 
 </body>

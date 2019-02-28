@@ -28,7 +28,7 @@
     <table width="500" border="0" cellpadding="4" cellspacing="1"
            align="center">
 
-        <tr>
+        <tr >
             <td width="130" align="right" ><s:message code="expert.job"/></td>
             <td width="270" align="left"><sf:input path="job"
                                                    /></td>

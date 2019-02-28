@@ -9,6 +9,7 @@ import org.springframework.transaction.annotation.Transactional;
 
 import java.util.Arrays;
 import java.util.HashSet;
+import java.util.List;
 
 @Service("expertService")
 @Transactional
@@ -18,8 +19,25 @@ public class ExpertServiceImpl implements ExpertService {
     @Autowired
     private ExpertRepository expertRepository;
 
+    @Autowired
+    private ExpertService expertService;
+
     @Override
     public void saveExpert(Expert expert) {
         expertRepository.save(expert);
     }
+
+    @Override
+    public List<Expert> findAll() {
+        List<Expert> expertList = expertRepository.findAll();
+        return expertList;
+    }
+
+    @Override
+    public List<Expert> findAllSearch(String param) {
+        List<Expert> expertList = expertRepository.findAllSearch(param);
+        return expertList;
+    }
+
+
 }

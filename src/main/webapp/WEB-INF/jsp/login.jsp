@@ -10,6 +10,11 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title><s:message code="logowanie.pageName" /></title>
+
+	<link rel="stylesheet" type="text/css" href="/resources/css/style.css" />
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
 </head>
 <body>
 	<%@include file="/WEB-INF/incl/menu.app"%>
@@ -17,7 +22,7 @@
 		<s:message code="logowanie.pageName" />
 	</h2>
 
-	<form id="loginForm" action="/login" method="POST">
+	<form  id="loginForm" action="/login" method="POST">
 
 		<table width="350" border="0" cellpadding="4" cellspacing="1"
 			align="center">
@@ -31,26 +36,44 @@
 			</tr>
 			<tr>
 				<td align="right" width="140">
-					<s:message code="register.email" />
+					<p class="font-weight-normal"><s:message code="register.email" /></p>
+
 				</td>
 				<td align="left">
-					<input type="text" name="email" id="email"
-					size="30" />
+					<div class="input-group mb-3" weight="200px">
+						<div class="input-group-prepend">
+							<span class="input-group-text" id="basic-addon1">Email</span>
+						</div>
+						<input type="text" name="email" id="email" class="form-control" placeholder="Email" aria-label="Email" aria-describedby="basic-addon1">
+					</div>
+
 				</td>
 			</tr>
 			<tr>
 				<td align="right" width="140">
 					<s:message code="register.password" />
 				</td>
-				<td align="left">
-					<input type="password" name="password" id="password" size="30" />
+				<td  align="left">
+					<div class="input-group mb-3">
+						<div class="input-group-prepend">
+							<span class="input-group-text" id="basic-addon1">Hasło</span>
+						</div>
+						<input type="password" name="password" id="password" class="form-control" placeholder="Email" aria-label="Email" aria-describedby="basic-addon1">
+					</div>
+
 				</td>
 			</tr>
 
 			<tr>
-				<td colspan="2" align="center" bgcolor="#ffffff"><input
-					type="submit" value="Zaloguj"/></td>
+				<td>
+
+					<input colspan="4" class="formbutton"  type="submit" value="Input">
+
+
+
+				</td>
 			</tr>
+
 
 		</table>
 	</form>
