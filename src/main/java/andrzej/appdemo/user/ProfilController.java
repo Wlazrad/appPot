@@ -21,7 +21,9 @@ public class ProfilController {
 	
 	@Autowired
 	private UserService userService;
-	
+
+
+
 	@Autowired
 	private MessageSource messageSource;
 	
@@ -35,7 +37,8 @@ public class ProfilController {
 		model.addAttribute("user", user);
 		return "profil";
 	}
-	
+
+
 	@GET
 	@RequestMapping(value = "/editpassword")
 	public String editUserPassword(Model model) {

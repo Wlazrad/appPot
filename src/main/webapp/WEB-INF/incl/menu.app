@@ -6,7 +6,7 @@
 				<a href="/admin"><s:message code="menu.adminPage"/></a>
 			</sec:authorize>
 		</td>
-		<td  align="right" width="600">
+		<td  align="right" width="1200">
 		<sec:authorize access="hasRole('ANONYMOUS')">
 <a class="btn btn-primary" role="button" href="/login"><s:message code="menu.login"/></a>&nbsp;&nbsp;
 <a class="btn btn-primary" role="button" href="/register"><s:message code="menu.register"/></a>&nbsp;&nbsp;

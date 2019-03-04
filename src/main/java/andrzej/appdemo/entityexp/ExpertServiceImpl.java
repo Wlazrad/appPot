@@ -2,6 +2,10 @@ package andrzej.appdemo.entityexp;
 
 
 import andrzej.appdemo.user.Role;
+import andrzej.appdemo.user.User;
+import andrzej.appdemo.user.UserRepository;
+import andrzej.appdemo.user.UserService;
+import andrzej.appdemo.utilities.UserUtilities;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Service;
@@ -20,11 +24,17 @@ public class ExpertServiceImpl implements ExpertService {
     private ExpertRepository expertRepository;
 
     @Autowired
-    private ExpertService expertService;
+    private UserService userService;
+
+    @Autowired
+    private UserRepository userRepository;
 
     @Override
     public void saveExpert(Expert expert) {
         expertRepository.save(expert);
+
+
+
     }
 
     @Override

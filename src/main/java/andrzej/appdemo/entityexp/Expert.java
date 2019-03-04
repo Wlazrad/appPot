@@ -1,8 +1,13 @@
 package andrzej.appdemo.entityexp;
 
 
+import andrzej.appdemo.user.User;
+import lombok.ToString;
+
 import javax.persistence.*;
 import javax.validation.constraints.NotNull;
+
+import static org.eclipse.jdt.internal.compiler.codegen.ConstantPool.ToString;
 
 @Entity
 @Table(name = "expert", schema = "mojabaza")
@@ -30,6 +35,11 @@ public class Expert {
     @NotNull
     @Column(name = "project")
     private String project;
+
+//    @OneToOne(mappedBy = "expert")
+//    @Column(name = "user")
+//    private User user;
+
 
 
     public int getId() {
@@ -69,6 +79,13 @@ public class Expert {
     }
 
     public void setProject(String project) {
+        this.project = project;
+    }
+
+    public Expert(@NotNull String job, @NotNull int years, @NotNull String location, @NotNull String project) {
+        this.job = job;
+        this.years = years;
+        this.location = location;
         this.project = project;
     }
 }

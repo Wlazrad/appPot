@@ -34,7 +34,7 @@ CREATE TABLE `user_role` (
 
 
 
-DROP TABLE IF EXISTS `user_role`;
+DROP TABLE IF EXISTS `expert`;
 CREATE TABLE `expert` (
   `expert_id` int(11) NOT NULL AUTO_INCREMENT,
   `job` varchar(45) DEFAULT NULL,

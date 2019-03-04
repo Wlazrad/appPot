@@ -9,6 +9,18 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title><s:message code="profil.userDane"/></title>
 
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+	<!-- css custom styling-->
+	<link rel="stylesheet" href="${pageContext.request.contextPath}/resources/style.css" type="text/css" />
+
+	<%--<link rel="stylesheet" type="text/css" href="/resources/css/style.css" />--%>
+
 
 </head>
 <body>
@@ -84,11 +96,11 @@
 
 	<tr>
 		<td align="center">
-			<input type="button" value="<s:message code="button.edycjaProfilu"/>" 
+			<input type="button" class="btn btn-secondary" value="<s:message code="button.edycjaProfilu"/>"
 					onclick="window.location.href='${pageContext.request.contextPath}/editprofil'"/>
 		</td>
 		<td align="center">
-			<input type="button" value="<s:message code="button.zmianaHasla"/>" 
+			<input type="button" class="btn btn-secondary" value="<s:message code="button.zmianaHasla"/>"
 					onclick="window.location.href='${pageContext.request.contextPath}/editpassword'"/>
 		</td>
 	</tr>

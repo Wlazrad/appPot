@@ -46,7 +46,7 @@
 
 				</td>
 				<td align="left">
-					<div class="input-group mb-3" weight="200px">
+					<div class="input-group mb-3" weight="300px">
 						<div class="input-group-prepend">
 							<span class="input-group-text" id="basic-addon1">Email</span>
 						</div>
@@ -60,8 +60,8 @@
 					<s:message code="register.password" />
 				</td>
 				<td  align="left">
-					<div class="input-group mb-3">
-						<div class="input-group-prepend">
+					<div class="input-group mb-3" weight="300px">
+						<div class="input-group-prepend" weight="200px">
 							<span class="input-group-text" id="basic-addon1">Hasło</span>
 						</div>
 						<input type="password" name="password" id="password" class="form-control" placeholder="Email" aria-label="Email" aria-describedby="basic-addon1">
@@ -73,8 +73,7 @@
 			<tr>
 				<td>
 
-					<input colspan="4" class="formbutton"  type="submit" value="Input">
-
+					<input colspan="4" class="btn btn-success"  type="submit" value="<s:message code="logging" />">
 
 
 				</td>

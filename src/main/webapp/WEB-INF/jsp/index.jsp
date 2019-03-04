@@ -44,19 +44,26 @@
 <div>
     <%@include file="/WEB-INF/incl/menu.app" %>
 </div>
-<div style="color: #614eda">
+<div class="tableback" style="background-image: url(/resources/images/niedokonczona.png);width: 800px">
 <p><s:message code="info.description2"/></p>
+
+
+    <div type="text" style="width: 1000px; padding: 10px;" class="input-group mb-3">
+        <input type="text" id="searchString"/>&nbsp;&nbsp;<input type="button" class="btn btn-primary" value="<s:message code="button.search"/>"
+                                                                 onclick="startSerach();"/>
+        <span id="errorSearch" style="color: red;"></span>
+    </div>
+
+
 </div>
 
 
 
-<div type="text" style="width: 1000px; padding: 10px;" class="input-group mb-3">
-<input type="text" id="searchString"/>&nbsp;&nbsp;<input type="button" class="btn btn-primary" value="<s:message code="button.search"/>"
-                                                         onclick="startSerach();"/>
-    <span id="errorSearch" style="color: red;"></span>
-</div>
 
-<div class="tableback" style="background-image: url(/resources/images/backremont.png)" >
+
+
+
+<div class="tableback" style="background-image: url(/resources/images/backremont.png);width: 800px" >
 
 
 <table class="tableback" style="opacity: 0.9">
@@ -70,7 +77,7 @@
  </tr>
     <c:forEach var="e" items="${expertList }">
     <tr>
-        <td><img src="..." class="rounded float-left" alt="..."></td>
+        <td><img src="/resources/images/+<c:out value="${e.years}+.jpg"/> class="rounded float-left" alt=""></td>
         <td align="center"  width="150" align="center"><c:out value="${e.job }" /></td>
         <td align="center"  width="150" align="center"><c:out value="${e.years }" /></td>
         <td align="center"  width="150" align="center"><c:out value="${e.location }" /></td>

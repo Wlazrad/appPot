@@ -44,11 +44,6 @@
         </tr>
 
         <tr>
-            <%--<td width="130" align="right"><s:message code="expert.location"/></td>--%>
-            <%--<td width="270" align="left"><sf:input path="location"--%>
-
-                                                   <%--size="28" /></td>--%>
-
                 <td width="130" align="right"><s:message code="expert.location"/></td>
                 <td width="270" align="left">
             <sf:select class="custom-select" id="inputGroupSelect02" path="location">
@@ -82,8 +77,9 @@
             </td>
         </tr>
 
-    </table>
 
+
+    </table>
 </sf:form>
 </body>
 </html>

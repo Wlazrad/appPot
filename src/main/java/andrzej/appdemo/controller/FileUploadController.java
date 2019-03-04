@@ -1,6 +1,10 @@
 package andrzej.appdemo.controller;
 
-import org.dom4j.rule.Mode;
+import andrzej.appdemo.entityexp.Expert;
+import andrzej.appdemo.user.User;
+import andrzej.appdemo.user.UserService;
+import andrzej.appdemo.utilities.UserUtilities;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -14,7 +18,11 @@ import java.nio.file.Paths;
 
 @Controller
 public class FileUploadController {
-    public static String uploadDirectory = System.getProperty("user.dir")+"/uploads";
+    public static String uploadDirectory = System.getProperty("user.dir")+"/src/main/resources/static/images";
+
+    @Autowired
+    UserService userService;
+
 
 
     @RequestMapping("/a")
@@ -24,9 +32,11 @@ public class FileUploadController {
 
     @RequestMapping("/upload")
     public String upload(Model model, @RequestParam("files") MultipartFile[] files){
+        String username = UserUtilities.getLoggedUser();
+        User user = userService.findUserByEmail(username);
         StringBuilder fileNames = new StringBuilder();
         for(MultipartFile file : files){
-            Path fileNameAndPath = Paths.get(uploadDirectory, file.getOriginalFilename());
+            Path fileNameAndPath = Paths.get(uploadDirectory, user.getEmail()+".jpg");
             fileNames.append(file.getOriginalFilename());
 
             try{
