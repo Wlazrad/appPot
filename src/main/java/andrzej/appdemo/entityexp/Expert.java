@@ -36,10 +36,6 @@ public class Expert {
     @Column(name = "project")
     private String project;
 
-//    @OneToOne(mappedBy = "expert")
-//    @Column(name = "user")
-//    private User user;
-
 
 
     public int getId() {
@@ -81,6 +77,8 @@ public class Expert {
     public void setProject(String project) {
         this.project = project;
     }
+
+
 
     public Expert(@NotNull String job, @NotNull int years, @NotNull String location, @NotNull String project) {
         this.job = job;

@@ -14,5 +14,9 @@ public class AppdemoApplication {
 	public static void main(String[] args) {
 		new File(FileUploadController.uploadDirectory).mkdir();
 		SpringApplication.run(AppdemoApplication.class, args);
+
+
+
+
 	}
 }

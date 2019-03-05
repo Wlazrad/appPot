@@ -69,6 +69,12 @@
                                                    size="28" /></td>
         </tr>
 
+
+
+
+
+
+
         <tr>
             <td colspan="2" align="center" bgcolor="#fff">
                 <input type="submit" class="btn btn-primary" value="<s:message code="button.register"/>" />

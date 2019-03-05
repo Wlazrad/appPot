@@ -9,4 +9,6 @@ public interface UserService {
 	public void updateUserPassword(String newPassword, String email);
 	public void updateUserProfile(String newName, String newLastName, String newEmail, int id);
 	public List<User> findAll();
+
+	User findByUserName(String userName);
 }

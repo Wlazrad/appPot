@@ -18,7 +18,9 @@ CREATE TABLE `user` (
   `last_name` varchar(255) NOT NULL,
   `name` varchar(255) NOT NULL,
   `password` varchar(255) NOT NULL,
-  PRIMARY KEY (`user_id`)
+  `expert_id` int(11) DEFAULT NULL,
+  PRIMARY KEY (`user_id`),
+  CONSTRAINT FK_EXPERT_DETAIL FOREIGN KEY (expert_id) REFERENCES expert (expert_id)
 ) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8;
 
 

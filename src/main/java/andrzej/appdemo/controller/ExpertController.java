@@ -3,11 +3,16 @@ package andrzej.appdemo.controller;
 import andrzej.appdemo.entityexp.Expert;
 import andrzej.appdemo.entityexp.ExpertService;
 import andrzej.appdemo.user.User;
+import andrzej.appdemo.user.UserRepository;
 import andrzej.appdemo.user.UserService;
+import andrzej.appdemo.utilities.UserUtilities;
 import andrzej.appdemo.validators.UserRegisterValidator;
 import org.apache.tomcat.util.http.fileupload.IOUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.MessageSource;
+import org.springframework.security.authentication.AnonymousAuthenticationToken;
+import org.springframework.security.core.Authentication;
+import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.ui.ModelMap;
@@ -30,11 +35,17 @@ public class ExpertController {
     @Autowired
     private ExpertService expertService;
 
+    @Autowired
+    private UserService userService;
+
+
 
 
     @GET
     @RequestMapping(value = "/addexpert")
     public String registerForm(Model model) {
+
+
 
         Expert e = new Expert();
         model.addAttribute("expert", e);
@@ -78,6 +89,15 @@ public class ExpertController {
         List<Expert> expertList = expertService.findAllSearch(searchWord);
     model.addAttribute("expertList", expertList);
     return "indexsearch";
+    }
+
+    public static String getLoggedUser() {
+        String username = null;
+        Authentication auth = SecurityContextHolder.getContext().getAuthentication();
+        if(!(auth instanceof AnonymousAuthenticationToken)) {
+            username = auth.getName();
+        }
+        return username;
     }
 
 

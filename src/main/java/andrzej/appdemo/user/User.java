@@ -39,9 +39,9 @@ public class User {
     @JoinTable(name = "user_role", joinColumns = @JoinColumn(name = "user_id"), inverseJoinColumns = @JoinColumn(name = "role_id"))
     private Set<Role> roles;
 
-//    @OneToOne
-//    @Column(name = "expert")
-//    private Expert expert;
+    @OneToOne
+    @JoinColumn(name = "expert_id")
+    private Expert expert;
 
     @Transient
     private String operacja;
@@ -134,13 +134,15 @@ public class User {
         this.newPassword = newPassword;
     }
 
-//    public Expert getExpert() {
-//        return expert;
-//    }
-//
-//    public void setExpert(Expert expert) {
-//        this.expert = expert;
-//    }
+    public Expert getExpert() {
+        return expert;
+    }
+
+    public void setExpert(Expert expert) {
+        this.expert = expert;
+    }
+
+
 
 
 }

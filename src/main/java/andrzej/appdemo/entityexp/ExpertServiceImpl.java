@@ -31,10 +31,10 @@ public class ExpertServiceImpl implements ExpertService {
 
     @Override
     public void saveExpert(Expert expert) {
+        String username = UserUtilities.getLoggedUser();
+        User user = userService.findUserByEmail(username);
+        user.setExpert(expert);
         expertRepository.save(expert);
-
-
-
     }
 
     @Override

@@ -77,7 +77,7 @@
  </tr>
     <c:forEach var="e" items="${expertList }">
     <tr>
-        <td><img src="/resources/images/+<c:out value="${e.years}+.jpg"/> class="rounded float-left" alt=""></td>
+        <td><img src="/resources/images/<c:out value="${e.id}"/>.jpg" alt="/resources/images/<c:out value="${e.id}"/>.jpg" class="img-thumbnail"></td>
         <td align="center"  width="150" align="center"><c:out value="${e.job }" /></td>
         <td align="center"  width="150" align="center"><c:out value="${e.years }" /></td>
         <td align="center"  width="150" align="center"><c:out value="${e.location }" /></td>

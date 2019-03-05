@@ -4,6 +4,8 @@ import java.util.Arrays;
 import java.util.HashSet;
 import java.util.List;
 
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;
@@ -20,10 +22,14 @@ public class UserServiceImpl implements UserService {
 	@Autowired
 	private BCryptPasswordEncoder bCryptPasswordEncoder;
 
+
 	@Override
 	public User findUserByEmail(String email) {
 		return userRepository.findByEmail(email);
 	}
+
+
+
 
 	@Override
 	public void saveUser(User user) {
@@ -49,5 +55,12 @@ public class UserServiceImpl implements UserService {
 		List<User> userList = userRepository.findAll();
 		return userList;
 	}
+
+	@Override
+	public User findByUserName(String userName) {
+		return null;
+	}
+
+
 
 }

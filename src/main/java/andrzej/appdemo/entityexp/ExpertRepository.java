@@ -13,4 +13,6 @@ public interface ExpertRepository extends JpaRepository<Expert, Integer> {
     @Query(value = "SELECT *FROM Expert e WHERE e.job LIKE %:param% OR e.project LIKE %:param% OR e.location LIKE %:param%", nativeQuery=true)
     List<Expert> findAllSearch(@Param("param") String param);
 
+
+
 }

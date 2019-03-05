@@ -25,7 +25,7 @@ public class FileUploadController {
 
 
 
-    @RequestMapping("/a")
+    @RequestMapping("/photo")
     public String UploadPage(Model model){
         return "uploadview";
     }
@@ -36,9 +36,8 @@ public class FileUploadController {
         User user = userService.findUserByEmail(username);
         StringBuilder fileNames = new StringBuilder();
         for(MultipartFile file : files){
-            Path fileNameAndPath = Paths.get(uploadDirectory, user.getEmail()+".jpg");
+            Path fileNameAndPath = Paths.get(uploadDirectory, user.getExpert().getId()+".jpg");
             fileNames.append(file.getOriginalFilename());
-
             try{
                 Files.write(fileNameAndPath, file.getBytes());
             }catch (IOException e){
