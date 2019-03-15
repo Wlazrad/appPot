@@ -13,9 +13,9 @@
 <a class="btn btn-primary" role="button" href="/addexpert"><s:message code="menu.addexpert"/></a>&nbsp;&nbsp;
 		</sec:authorize>
 		<sec:authorize access="isAuthenticated()">
-			<a class="btn btn-primary" role="button" href="/profil"><s:message code="menu.profil"/></a>
-			<a class="btn btn-primary" role="button" href="/logout"><s:message code="menu.logout"/></a>
-			<a class="btn btn-primary" role="button" href="/addexpert"><s:message code="menu.addexpert"/></a>
+			<a class="btn btn-primary" role="button" href="/profil"><s:message code="menu.profil"/></a>&nbsp;&nbsp;
+			<a class="btn btn-primary" role="button" href="/logout"><s:message code="menu.logout"/></a>&nbsp;&nbsp;
+			<a class="btn btn-primary" role="button" href="/addexpert"><s:message code="menu.addexpert"/></a>&nbsp;&nbsp;
 		</sec:authorize>
 		</td>
 	</tr>

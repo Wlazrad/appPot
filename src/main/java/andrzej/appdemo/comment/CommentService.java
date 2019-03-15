@@ -1,4 +1,15 @@
 package andrzej.appdemo.comment;
 
+import andrzej.appdemo.entityexp.Expert;
+import andrzej.appdemo.user.User;
+
+import java.util.List;
+
 public interface CommentService {
+    public Comment findCommentByUserId(User user);
+    public void saveComment(Comment comment);
+    public void deleteComment(Comment comment);
+    public List<Comment> findAll();
+
+
 }

@@ -1,10 +1,14 @@
 package andrzej.appdemo.user;
 
+import andrzej.appdemo.comment.Comment;
 import andrzej.appdemo.entityexp.Expert;
+import lombok.ToString;
+import org.hibernate.annotations.Fetch;
+import org.hibernate.annotations.FetchMode;
 
 import javax.persistence.*;
 import javax.validation.constraints.NotNull;
-import java.util.Set;
+import java.util.*;
 
 @Entity
 @Table(name = "user")
@@ -43,6 +47,13 @@ public class User {
     @JoinColumn(name = "expert_id")
     private Expert expert;
 
+    @OneToOne
+    @JoinColumn(name = "id_comment")
+    private Comment comment;
+
+
+
+
     @Transient
     private String operacja;
 
@@ -51,6 +62,9 @@ public class User {
 
     @Transient
     private String newPassword;
+
+    public User() { }
+
 
 
     //gettery i settery
@@ -142,7 +156,11 @@ public class User {
         this.expert = expert;
     }
 
+    public Comment getComment() {
+        return comment;
+    }
 
-
-
+    public void setComment(Comment comment) {
+        this.comment = comment;
+    }
 }

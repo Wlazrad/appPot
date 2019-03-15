@@ -10,13 +10,13 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <%--<!-- Bootstrap CSS -->--%>
+    <%--<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">--%>
 
-    <!-- css custom styling-->
-    <link rel="stylesheet" href="${pageContext.request.contextPath}/resources/style.css" type="text/css" />
+    <%--<!-- css custom styling-->--%>
+    <%--&lt;%&ndash;<link rel="stylesheet" href="${pageContext.request.contextPath}/resources/style.css" type="text/css" />&ndash;%&gt;--%>
 
-    <%--<link rel="stylesheet" type="text/css" href="/resources/css/style.css" />--%>
+    <%--&lt;%&ndash;&lt;%&ndash;<link rel="stylesheet" type="text/css" href="/resources/css/style.css" />&ndash;%&gt;&ndash;%&gt;--%>
 
     <script type="text/javascript">
         function changeTrBg(row){
@@ -44,7 +44,7 @@
 <div>
     <%@include file="/WEB-INF/incl/menu.app" %>
 </div>
-<div class="tableback" style="background-image: url(/resources/images/niedokonczona.png);width: 800px">
+    <div class="tableback">
 <p><s:message code="info.description2"/></p>
 
 
@@ -63,7 +63,7 @@
 
 
 
-<div class="tableback" style="background-image: url(/resources/images/backremont.png);width: 800px" >
+<div class="tableback" >
 
 
 <table class="tableback" style="opacity: 0.9">
@@ -74,16 +74,23 @@
      <td width="150" align="center"><b><s:message code="expert.years"/></b></td>
      <td width="150" align="center"><b><s:message code="expert.location"/></b></td>
      <td width="150" align="center"><b><s:message code="expert.project"/></b></td>
+     <td width="150" align="center"><b><s:message code="expert.project"/></b></td>
  </tr>
     <c:forEach var="e" items="${expertList }">
     <tr>
-        <td><img src="/resources/images/<c:out value="${e.id}"/>.jpg" alt="/resources/images/<c:out value="${e.id}"/>.jpg" class="img-thumbnail"></td>
+        <%--<td><img src="/resources/images/<c:out value="${e.id}"/>.jpg" alt="/resources/images/<c:out value="${e.id}"/>.jpg" class="img-thumbnail"></td>--%>
         <td align="center"  width="150" align="center"><c:out value="${e.job }" /></td>
         <td align="center"  width="150" align="center"><c:out value="${e.years }" /></td>
         <td align="center"  width="150" align="center"><c:out value="${e.location }" /></td>
         <td align="center"  width="150" align="center"><c:out value="${e.project }" /></td>
+        <td align="center"  width="150" align="center"><a class="btn btn-primary" href="${pageContext.request.contextPath}/addcomment" role="button">Comment</a></td>
     </tr>
+
+
+
     </c:forEach>
+
+
 
 
 

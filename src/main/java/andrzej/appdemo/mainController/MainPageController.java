@@ -2,6 +2,8 @@ package andrzej.appdemo.mainController;
 
 import javax.ws.rs.GET;
 
+import andrzej.appdemo.comment.Comment;
+import andrzej.appdemo.comment.CommentService;
 import andrzej.appdemo.entityexp.Expert;
 import andrzej.appdemo.entityexp.ExpertService;
 import andrzej.appdemo.user.User;
@@ -21,6 +23,8 @@ public class MainPageController {
 	private ExpertService expertService;
 	@Autowired
 	private UserService userService;
+	@Autowired
+	private CommentService commentService;
 
 	
 	@GET
@@ -29,8 +33,10 @@ public class MainPageController {
 		String username = UserUtilities.getLoggedUser();
 		User user = userService.findUserByEmail(username);
 		List<Expert> expertList = getAllExperts();
+		List<Comment> commentList = getAllComment();
 		model.addAttribute("user",user);
 		model.addAttribute("expertList",expertList);
+		model.addAttribute("commentList", commentList);
 		return "index";
 	}
 
@@ -39,6 +45,11 @@ public class MainPageController {
 	private List<Expert> getAllExperts(){
 		List<Expert> expertList = expertService.findAll();
 		return expertList;
+	}
+
+	private List<Comment> getAllComment(){
+		List<Comment> commentList = commentService.findAll();
+		return commentList;
 	}
 	
 }
