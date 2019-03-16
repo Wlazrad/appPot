@@ -18,37 +18,52 @@ import static org.eclipse.jdt.internal.compiler.codegen.ConstantPool.ToString;
 @Table(name = "expert", schema = "mojabaza")
 public class Expert {
 
-    public Expert() {}
+
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "expert_id")
+    @Column(name = "id")
     private int id;
+
+    @NotNull
+    @Column(name = "name")
+    private String name;
+
+    @NotNull
+    @Column(name = "location")
+    private int location;
 
     @NotNull
     @Column(name = "job")
     private String job;
 
     @NotNull
-    @Column(name = "years")
-    private int years;
+    @Column(name = "details")
+    private String details;
 
     @NotNull
-    @Column(name = "location")
-    private String location;
+    @Column(name = "image_url")
+    private String image_url;
 
     @NotNull
-    @Column(name = "project")
-    private String project;
+    @Column(name = "number")
+    private int number;
 
+    @ToString.Exclude
+    @OneToMany(mappedBy = "expert", cascade = CascadeType.ALL)
+    @Fetch(FetchMode.JOIN)
+    private Collection<Comment> comments;
 
+    public Expert() {}
 
-//    @ToString.Exclude
-//    @OneToMany(mappedBy = "expert", cascade = CascadeType.ALL)
-//    @Fetch(FetchMode.JOIN)
-//    private Collection<Comment> comments;
-
-
+    public Expert(String name, int location, String job, String details, String image_url, int number) {
+        this.name = name;
+        this.location = location;
+        this.job = job;
+        this.details = details;
+        this.image_url = image_url;
+        this.number = number;
+    }
 
     public int getId() {
         return id;
@@ -56,6 +71,22 @@ public class Expert {
 
     public void setId(int id) {
         this.id = id;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public int getLocation() {
+        return location;
+    }
+
+    public void setLocation(int location) {
+        this.location = location;
     }
 
     public String getJob() {
@@ -66,36 +97,37 @@ public class Expert {
         this.job = job;
     }
 
-    public int getYears() {
-        return years;
+    public String getDetails() {
+        return details;
     }
 
-    public void setYears(int years) {
-        this.years = years;
+    public void setDetails(String details) {
+        this.details = details;
     }
 
-    public String getLocation() {
-        return location;
+    public String getImage_url() {
+        return image_url;
     }
 
-    public void setLocation(String location) {
-        this.location = location;
+    public void setImage_url(String image_url) {
+        this.image_url = image_url;
     }
 
-    public String getProject() {
-        return project;
+    public int getNumber() {
+        return number;
     }
 
-    public void setProject(String project) {
-        this.project = project;
+    public void setNumber(int number) {
+        this.number = number;
+    }
+
+    public Collection<Comment> getComments() {
+        return comments;
+    }
+
+    public void setComments(Collection<Comment> comments) {
+        this.comments = comments;
     }
 
 
-
-    public Expert(@NotNull String job, @NotNull int years, @NotNull String location, @NotNull String project) {
-        this.job = job;
-        this.years = years;
-        this.location = location;
-        this.project = project;
-    }
 }
