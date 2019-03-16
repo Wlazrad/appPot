@@ -41,6 +41,8 @@ public class Expert {
     @Column(name = "project")
     private String project;
 
+
+
 //    @ToString.Exclude
 //    @OneToMany(mappedBy = "expert", cascade = CascadeType.ALL)
 //    @Fetch(FetchMode.JOIN)
