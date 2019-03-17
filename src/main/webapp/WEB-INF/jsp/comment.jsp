@@ -25,6 +25,8 @@
     <%@include file="/WEB-INF/incl/menu.app" %>
 </div>
 
+
+
 <sf:form id="commentForm" action="addcomment1" modelAttribute="comment"
 enctype="multipart/form-data" method="POST">
 <div class="input-group">

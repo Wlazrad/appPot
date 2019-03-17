@@ -33,7 +33,7 @@ public class ExpertServiceImpl implements ExpertService {
     public void saveExpert(Expert expert) {
         String username = UserUtilities.getLoggedUser();
         User user = userService.findUserByEmail(username);
-        user.setExpert(expert);
+
         expertRepository.save(expert);
     }
 
@@ -47,6 +47,17 @@ public class ExpertServiceImpl implements ExpertService {
     public List<Expert> findAllSearch(String param) {
         List<Expert> expertList = expertRepository.findAllSearch(param);
         return expertList;
+    }
+
+    @Override
+    public Expert getExpert() {
+        return null;
+    }
+
+    @Override
+    public Expert getExpertByIdEquals(int id) {
+        Expert expert = expertRepository.getExpertByIdEquals(id);
+        return expert;
     }
 
 

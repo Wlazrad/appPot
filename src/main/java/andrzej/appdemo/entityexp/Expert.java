@@ -31,7 +31,7 @@ public class Expert {
 
     @NotNull
     @Column(name = "location")
-    private int location;
+    private String location;
 
     @NotNull
     @Column(name = "job")
@@ -41,7 +41,8 @@ public class Expert {
     @Column(name = "details")
     private String details;
 
-    @NotNull
+
+
     @Column(name = "image_url")
     private String image_url;
 
@@ -56,13 +57,13 @@ public class Expert {
 
     public Expert() {}
 
-    public Expert(String name, int location, String job, String details, String image_url, int number) {
+    public Expert( String name, String location, String job, String details, int number) {
         this.name = name;
         this.location = location;
         this.job = job;
         this.details = details;
-        this.image_url = image_url;
         this.number = number;
+
     }
 
     public int getId() {
@@ -81,11 +82,11 @@ public class Expert {
         this.name = name;
     }
 
-    public int getLocation() {
+    public String getLocation() {
         return location;
     }
 
-    public void setLocation(int location) {
+    public void setLocation(String location) {
         this.location = location;
     }
 
@@ -128,6 +129,4 @@ public class Expert {
     public void setComments(Collection<Comment> comments) {
         this.comments = comments;
     }
-
-
 }

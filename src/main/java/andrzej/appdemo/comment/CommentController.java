@@ -11,6 +11,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 
 import javax.ws.rs.GET;
 import javax.ws.rs.POST;
@@ -26,6 +27,9 @@ public class CommentController  {
 
     @Autowired
     UserService userService;
+
+    @Autowired
+    ExpertService expertService;
 
 
     @GET
@@ -43,7 +47,14 @@ public class CommentController  {
 
     @POST
     @RequestMapping(value = "/addcomment1")
-    public String registerAction(Comment comment, BindingResult result, Model model, Locale locale) {
+    public String registerAction(@RequestParam("content") String content,
+                                 @RequestParam("expertId") int expertId,
+                                 @RequestParam("userId") int userId,
+                                 Comment comment,
+                                 BindingResult result,
+                                 Model model,
+                                 Locale locale) {
+        Expert expert = expertService.getExpert();
 
         String returnPage = null;
 

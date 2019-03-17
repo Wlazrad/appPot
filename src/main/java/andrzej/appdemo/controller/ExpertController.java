@@ -88,13 +88,23 @@ public class ExpertController {
     return "indexsearch";
     }
 
-    public static String getLoggedUser() {
-        String username = null;
-        Authentication auth = SecurityContextHolder.getContext().getAuthentication();
-        if(!(auth instanceof AnonymousAuthenticationToken)) {
-            username = auth.getName();
-        }
-        return username;
+
+
+
+//    @GET
+//    @RequestMapping(value = "/viewexpert")
+//    public String viewExpert(@RequestParam("id") Integer id, Model model){
+//        Expert expert = expertService.getExpertByIdEquals(id);
+//        model.addAttribute(expert);
+//        return "viewexpert";
+//    }
+
+    @GET
+    @RequestMapping(value = "/viewexpert/{id}")
+    public String openSearchUserPage(@PathVariable int id, Model model) {
+        Expert expert = expertService.getExpertByIdEquals(6);
+        model.addAttribute(expert);
+        return "viewexpert";
     }
 
 

@@ -10,8 +10,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <%--<!-- Bootstrap CSS -->--%>
-    <%--<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">--%>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
     <%--<!-- css custom styling-->--%>
     <%--&lt;%&ndash;<link rel="stylesheet" href="${pageContext.request.contextPath}/resources/style.css" type="text/css" />&ndash;%&gt;--%>
@@ -58,15 +58,16 @@
 </div>
 
 
+<div>
 
-
-
+</div>
 
 
 <div class="tableback" >
 
 
 <table class="tableback" style="opacity: 0.9">
+
 
  <tr>
      <td width="150" align="center"><b><s:message code="admin.user.id"/></b></td>
@@ -79,20 +80,21 @@
     <c:forEach var="e" items="${expertList }">
     <tr>
         <%--<td><img src="/resources/images/<c:out value="${e.id}"/>.jpg" alt="/resources/images/<c:out value="${e.id}"/>.jpg" class="img-thumbnail"></td>--%>
-        <td align="center"  width="150" align="center"><c:out value="${e.job }" /></td>
-        <td align="center"  width="150" align="center"><c:out value="${e.years }" /></td>
+        <td align="center"  width="150" align="center"><c:out value="${e.name }" /></td>
         <td align="center"  width="150" align="center"><c:out value="${e.location }" /></td>
-        <td align="center"  width="150" align="center"><c:out value="${e.project }" /></td>
-        <td align="center"  width="150" align="center"><a class="btn btn-primary" href="${pageContext.request.contextPath}/addcomment" role="button">Comment</a></td>
+        <td align="center"  width="150" align="center"><c:out value="${e.job }" /></td>
+        <td align="center"  width="150" align="center"><c:out value="${e.number }" /></td>
+        <td align="center"  width="150" align="center"><a class="btn btn-primary" href="${pageContext.request.contextPath}/viewexpert/${e.id }" role="button">Comment</a></td>
+
+            <c:url var="viewexpert" value="${'/viewexpert'}">
+                <c:param name="id" value="${e.id}"/>
+            </c:url>
+
+            <a href="${viewexpert}" role="button" class="btn btn-outline-info">
+                <i class="fas fa-book-open"></i> Show
+            </a>
     </tr>
-
-
-
     </c:forEach>
-
-
-
-
 
 </table>
 </div>

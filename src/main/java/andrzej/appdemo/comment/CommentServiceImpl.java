@@ -41,7 +41,7 @@ public class CommentServiceImpl implements CommentService {
     public void saveComment(Comment comment) {
         String username = UserUtilities.getLoggedUser();
         User user = userService.findUserByEmail(username);
-        user.setComment(comment);
+
         commentRepository.save(comment);
     }
 

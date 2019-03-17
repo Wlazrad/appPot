@@ -36,6 +36,11 @@
 
     <table width="500" border="0" cellpadding="4" cellspacing="1"
            align="center">
+        <tr >
+            <td width="130" align="right" ><s:message code="expert.job"/></td>
+            <td width="270" align="left"><sf:input path="name"
+            /></td>
+        </tr>
 
         <tr >
             <td width="130" align="right" ><s:message code="expert.job"/></td>
@@ -59,13 +64,13 @@
 
         <tr>
             <td width="130" align="right"><s:message code="expert.project"/></td>
-            <td width="270" align="left"><sf:input path="project"
+            <td width="270" align="left"><sf:input path="details"
                                                    size="28" /></td>
         </tr>
 
         <tr>
             <td width="130" align="right"><s:message code="expert.years"/></td>
-            <td width="270" align="left"><sf:input path="years"
+            <td width="270" align="left"><sf:input path="number"
                                                    size="28" /></td>
         </tr>
 
