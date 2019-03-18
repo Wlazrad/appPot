@@ -16,8 +16,8 @@ public class Comment {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "id")
-    private Integer id_comment;
+    @Column(name = "comment_id")
+    private Integer comment_id;
 
     @Column(name = "content")
     private String content;
@@ -57,12 +57,13 @@ public class Comment {
         this.createdAt = createdAt;
     }
 
-    public Integer getId_comment() {
-        return id_comment;
+
+    public Integer getComment_id() {
+        return comment_id;
     }
 
-    public void setId_comment(Integer id_comment) {
-        this.id_comment = id_comment;
+    public void setComment_id(Integer comment_id) {
+        this.comment_id = comment_id;
     }
 
     public String getContent() {

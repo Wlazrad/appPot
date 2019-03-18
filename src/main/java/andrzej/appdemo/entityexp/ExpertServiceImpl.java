@@ -55,8 +55,8 @@ public class ExpertServiceImpl implements ExpertService {
     }
 
     @Override
-    public Expert getExpertByIdEquals(int id) {
-        Expert expert = expertRepository.getExpertByIdEquals(id);
+    public Expert getExpertByIdEquals(int expert_id) {
+        Expert expert = expertRepository.getExpertByIdEquals(expert_id);
         return expert;
     }
 

@@ -14,8 +14,8 @@ public interface ExpertRepository extends JpaRepository<Expert, Integer> {
     List<Expert> findAllSearch(@Param("param") String param);
 
 
-    @Query(value = "SELECT *FROM Expert e WHERE e.id = 6",nativeQuery=true)
-    Expert getExpertByIdEquals(@Param("id") int id);
+    @Query(value = "SELECT *FROM Expert e WHERE e.expert_id =:id",nativeQuery=true)
+    Expert getExpertByIdEquals(@Param("id") int expert_id);
 
 
 

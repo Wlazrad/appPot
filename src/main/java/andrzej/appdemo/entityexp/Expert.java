@@ -22,8 +22,8 @@ public class Expert {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "id")
-    private int id;
+    @Column(name = "expert_id")
+    private int expert_id;
 
     @NotNull
     @Column(name = "name")
@@ -66,12 +66,13 @@ public class Expert {
 
     }
 
-    public int getId() {
-        return id;
+
+    public int getExpert_id() {
+        return expert_id;
     }
 
-    public void setId(int id) {
-        this.id = id;
+    public void setExpert_id(int expert_id) {
+        this.expert_id = expert_id;
     }
 
     public String getName() {

@@ -31,7 +31,13 @@ lala
     <td align="center"  width="150" align="center"><c:out value="${expert.job }" /></td>
     <td align="center"  width="150" align="center"><c:out value="${expert.number }" /></td>
 </tr>
-</>
+
+<tr>
+    <td align="center"  width="150" align="center"><c:out value="${comment.comment_id }" /></td>
+    <td align="center"  width="150" align="center"><c:out value="${comment.content }" /></td>
+    <td align="center"  width="150" align="center"><a class="btn btn-primary" href="${pageContext.request.contextPath}/viewexpert/${expert.expert_id }/comment" role="button">Comment</a></td>
+</tr>
+
 
 <%--<c:url var="viewexpert" value="${'/viewexpert'}">--%>
     <%--<c:param name="id" value="${e.id}"/>--%>

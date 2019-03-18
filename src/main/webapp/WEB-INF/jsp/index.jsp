@@ -84,11 +84,12 @@
         <td align="center"  width="150" align="center"><c:out value="${e.location }" /></td>
         <td align="center"  width="150" align="center"><c:out value="${e.job }" /></td>
         <td align="center"  width="150" align="center"><c:out value="${e.number }" /></td>
-        <td align="center"  width="150" align="center"><a class="btn btn-primary" href="${pageContext.request.contextPath}/viewexpert/${e.id }" role="button">Comment</a></td>
-
+        <td align="center"  width="150" align="center"><a class="btn btn-primary" href="${pageContext.request.contextPath}/viewexpert/${e.expert_id }" role="button">View</a></td>
+            <td align="center"  width="150" align="center"><a class="btn btn-primary" href="${pageContext.request.contextPath}/viewexpert/${e.expert_id }/comment/${user.id}" role="button">Comment</a></td>
             <c:url var="viewexpert" value="${'/viewexpert'}">
-                <c:param name="id" value="${e.id}"/>
+                <c:param name="expert_id" value="${e.expert_id}"/>
             </c:url>
+
 
             <a href="${viewexpert}" role="button" class="btn btn-outline-info">
                 <i class="fas fa-book-open"></i> Show

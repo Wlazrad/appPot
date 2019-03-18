@@ -100,9 +100,12 @@ public class ExpertController {
 //    }
 
     @GET
-    @RequestMapping(value = "/viewexpert/{id}")
-    public String openSearchUserPage(@PathVariable int id, Model model) {
-        Expert expert = expertService.getExpertByIdEquals(6);
+    @RequestMapping(value = "/viewexpert/{expert_id}")
+    public String openSearchUserPage(@PathVariable int expert_id,
+                                     Model model) {
+        Expert expert = expertService.getExpertByIdEquals(expert_id);
+//        User user = userService.getUserByIdEquals(user_id);
+//        model.addAttribute(user);
         model.addAttribute(expert);
         return "viewexpert";
     }

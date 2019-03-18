@@ -10,6 +10,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
@@ -33,7 +34,7 @@ public class CommentController  {
 
 
     @GET
-    @RequestMapping(value = "/addcomment")
+    @RequestMapping(value = "/addcomment/{expert_id}")
     public String addComment(Model model) {
         Comment c = new Comment();
         c.setCreatedAt(LocalDateTime.now());
@@ -43,6 +44,24 @@ public class CommentController  {
         model.addAttribute("comment", c);
 
         return "comment";
+    }
+
+
+
+    @POST
+    @RequestMapping(value = "/viewexpert/{expert_id}/comment/{user_id}")
+    public String openSearchUserPage(@PathVariable int user_id,
+                                     @PathVariable int expert_id, Model model) {
+        Comment comment = new Comment();
+        User user = userService.getUserByIdEquals(user_id);
+        comment.setUser(user);
+        comment.setContent("lala");
+        comment.setUser_id(user_id);
+        comment.setExpert_id(expert_id);
+        commentService.saveComment(comment);
+
+
+        return "viewexpert";
     }
 
     @POST

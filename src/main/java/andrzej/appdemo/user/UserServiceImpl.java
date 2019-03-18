@@ -61,6 +61,11 @@ public class UserServiceImpl implements UserService {
 		return null;
 	}
 
+	@Override
+	public User getUserByIdEquals(int id) {
+		User user = userRepository.getUserByIdEquals(id);
+		return user;
+	}
 
 
 }

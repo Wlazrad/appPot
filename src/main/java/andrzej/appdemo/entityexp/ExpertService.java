@@ -11,5 +11,5 @@ public interface ExpertService {
     public List<Expert> findAll();
     List<Expert> findAllSearch(String param);
     public Expert getExpert();
-    Expert getExpertByIdEquals(int id);
+    Expert getExpertByIdEquals(int expert_id);
 }
