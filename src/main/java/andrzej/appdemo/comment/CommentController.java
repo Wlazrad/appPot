@@ -7,6 +7,7 @@ import andrzej.appdemo.user.User;
 import andrzej.appdemo.user.UserService;
 import andrzej.appdemo.utilities.UserUtilities;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.access.annotation.Secured;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
@@ -46,48 +47,66 @@ public class CommentController  {
         return "comment";
     }
 
+    @GET
+    @RequestMapping(value = "/viewexpert/comment/{expert_id}")
+    public String openCommentPage(@PathVariable int expert_id, Model model) {
+        Comment comment = new Comment();
+        Expert expert = new Expert();
+        expert=expertService.getExpertByIdEquals(expert_id);
+
+        comment.setExpert_id(expert_id);
+        model.addAttribute(comment);
+        model.addAttribute(expert);
+
+        return "comment";
+    }
+
+
+
+
 
 
     @POST
     @RequestMapping(value = "/viewexpert/{expert_id}/comment/{user_id}")
-    public String openSearchUserPage(@PathVariable int user_id,
-                                     @PathVariable int expert_id, Model model) {
+    public String postComment(@PathVariable int user_id,
+                              @PathVariable int expert_id, Model model) {
         Comment comment = new Comment();
         User user = userService.getUserByIdEquals(user_id);
+
         comment.setUser(user);
         comment.setContent("lala");
         comment.setUser_id(user_id);
         comment.setExpert_id(expert_id);
         commentService.saveComment(comment);
 
-
         return "viewexpert";
     }
 
     @POST
     @RequestMapping(value = "/addcomment1")
-    public String registerAction(@RequestParam("content") String content,
-                                 @RequestParam("expertId") int expertId,
-                                 @RequestParam("userId") int userId,
-                                 Comment comment,
-                                 BindingResult result,
-                                 Model model,
-                                 Locale locale) {
-        Expert expert = expertService.getExpert();
+    public String registerAction(Comment comment,
+                                 Model model) {
+        Expert expert = expertService.getExpertByIdEquals(8);
 
-        String returnPage = null;
+        User user = userService.getUserByIdEquals(13);
 
-        if (result.hasErrors()) {
-            returnPage = "comment";
-        } else {
-            commentService.saveComment(comment);
 
-            model.addAttribute("coment", new Comment());
-            returnPage = "comment";
-        }
 
-        return returnPage;
+//        comment.setExpert(expert);
+//        comment.setUser(user);
+//        comment.setUser_id(1);
+//        comment.setExpert_id(1);
+        comment.setCreatedAt(LocalDateTime.now());
+
+        commentService.saveComment(comment);
+        model.addAttribute("comment", new Comment());
+
+
+        return "comment";
     }
+
+
+
 
 
 

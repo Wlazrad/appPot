@@ -25,15 +25,20 @@
     <%@include file="/WEB-INF/incl/menu.app" %>
 </div>
 
+<td align="center"  width="150" align="center"><c:out value="${expert.expert_id }" /></td>
 
 
-<sf:form id="commentForm" action="addcomment1" modelAttribute="comment"
+<td align="center"  width="150" align="center"><c:out value="${comment.content }" /></td>
+
+
+<sf:form id="commentForm" action="addexpertcomment/${expert.expert_id }" modelAttribute="comment"
 enctype="multipart/form-data" method="POST">
 <div class="input-group">
-    <div class="input-group-prepend">
-        <span class="input-group-text">With textarea</span>
-    </div>
+    <%--<div class="input-group-prepend">--%>
+        <%--<span class="input-group-text">With textarea</span>--%>
+    <%--</div>--%>
     <sf:textarea path="content" />
+
     <sf:hidden path="createdAt"></sf:hidden>
 
 </div>
@@ -41,8 +46,9 @@ enctype="multipart/form-data" method="POST">
 <div>
     <button type="submit" class="btn btn-outline-primary">Primary</button>
 </div>
-
 </sf:form>
+
+
 
 
 </body>

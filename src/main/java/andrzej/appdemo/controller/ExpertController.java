@@ -1,5 +1,7 @@
 package andrzej.appdemo.controller;
 
+import andrzej.appdemo.comment.Comment;
+import andrzej.appdemo.comment.CommentService;
 import andrzej.appdemo.entityexp.Expert;
 import andrzej.appdemo.entityexp.ExpertService;
 import andrzej.appdemo.user.User;
@@ -26,6 +28,7 @@ import java.io.*;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
+import java.time.LocalDateTime;
 import java.util.List;
 import java.util.Locale;
 
@@ -37,6 +40,9 @@ public class ExpertController {
 
     @Autowired
     private UserService userService;
+
+    @Autowired
+    private CommentService commentService;
 
 
 
@@ -64,6 +70,34 @@ public class ExpertController {
         }
 
         return returnPage;
+    }
+
+    @POST
+    @RequestMapping(value = "/viewexpert/comment/addexpertcomment/{expert_id}")
+    public String addComent(@PathVariable int expert_id, Comment comment, BindingResult result, Model model, Locale locale) {
+
+        String returnPage = null;
+
+        if (result.hasErrors()) {
+            returnPage = "commment";
+        } else {
+            String username = UserUtilities.getLoggedUser();
+            User user = userService.findUserByEmail(username);
+
+            Expert expert = expertService.getExpertByIdEquals(expert_id);
+            comment.setExpert(expert);
+
+            comment.setExpert_id(expert_id);
+            comment.setUser(user);
+            comment.setUser_id(user.getId());
+            comment.setCreatedAt(LocalDateTime.now());
+            commentService.saveComment(comment);
+
+            model.addAttribute("comment", new Comment());
+            returnPage = "commment";
+        }
+
+        return "index";
     }
 
 
@@ -106,6 +140,7 @@ public class ExpertController {
         Expert expert = expertService.getExpertByIdEquals(expert_id);
 //        User user = userService.getUserByIdEquals(user_id);
 //        model.addAttribute(user);
+
         model.addAttribute(expert);
         return "viewexpert";
     }

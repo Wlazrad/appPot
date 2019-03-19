@@ -1,6 +1,7 @@
 package andrzej.appdemo.entityexp;
 
 
+import andrzej.appdemo.comment.Comment;
 import andrzej.appdemo.user.Role;
 import andrzej.appdemo.user.User;
 import andrzej.appdemo.user.UserRepository;
@@ -58,6 +59,12 @@ public class ExpertServiceImpl implements ExpertService {
     public Expert getExpertByIdEquals(int expert_id) {
         Expert expert = expertRepository.getExpertByIdEquals(expert_id);
         return expert;
+    }
+
+    @Override
+    public boolean addComment(Comment comment) {
+
+        return false;
     }
 
 

@@ -4,6 +4,7 @@ package andrzej.appdemo.comment;
 import andrzej.appdemo.entityexp.Expert;
 import andrzej.appdemo.user.User;
 import lombok.ToString;
+import org.springframework.beans.factory.annotation.Value;
 
 import javax.persistence.*;
 import java.time.LocalDateTime;
@@ -24,6 +25,7 @@ public class Comment {
 
     @Column(name = "user_id")
     private int user_id;
+
 
     @Column(name = "expert_id")
     private int expert_id;
@@ -56,6 +58,12 @@ public class Comment {
         this.expert_id = expert_id;
         this.createdAt = createdAt;
     }
+
+    public Comment(String content, LocalDateTime createdAt) {
+        this.content = content;
+        this.createdAt = createdAt;
+    }
+
 
 
     public Integer getComment_id() {

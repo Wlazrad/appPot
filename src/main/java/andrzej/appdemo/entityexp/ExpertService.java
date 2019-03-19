@@ -1,5 +1,6 @@
 package andrzej.appdemo.entityexp;
 
+import andrzej.appdemo.comment.Comment;
 import andrzej.appdemo.user.User;
 import org.springframework.data.repository.query.Param;
 
@@ -12,4 +13,6 @@ public interface ExpertService {
     List<Expert> findAllSearch(String param);
     public Expert getExpert();
     Expert getExpertByIdEquals(int expert_id);
+    boolean addComment(Comment comment);
+
 }

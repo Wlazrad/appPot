@@ -46,7 +46,7 @@ public class Expert {
     @Column(name = "image_url")
     private String image_url;
 
-    @NotNull
+
     @Column(name = "number")
     private int number;
 

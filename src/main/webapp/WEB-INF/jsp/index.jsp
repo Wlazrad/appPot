@@ -77,6 +77,8 @@
      <td width="150" align="center"><b><s:message code="expert.project"/></b></td>
      <td width="150" align="center"><b><s:message code="expert.project"/></b></td>
  </tr>
+
+
     <c:forEach var="e" items="${expertList }">
     <tr>
         <%--<td><img src="/resources/images/<c:out value="${e.id}"/>.jpg" alt="/resources/images/<c:out value="${e.id}"/>.jpg" class="img-thumbnail"></td>--%>
@@ -85,15 +87,12 @@
         <td align="center"  width="150" align="center"><c:out value="${e.job }" /></td>
         <td align="center"  width="150" align="center"><c:out value="${e.number }" /></td>
         <td align="center"  width="150" align="center"><a class="btn btn-primary" href="${pageContext.request.contextPath}/viewexpert/${e.expert_id }" role="button">View</a></td>
-            <td align="center"  width="150" align="center"><a class="btn btn-primary" href="${pageContext.request.contextPath}/viewexpert/${e.expert_id }/comment/${user.id}" role="button">Comment</a></td>
+            <td align="center"  width="150" align="center"><a class="btn btn-primary" href="${pageContext.request.contextPath}/viewexpert/comment/${e.expert_id}" role="button">Comment</a></td>
             <c:url var="viewexpert" value="${'/viewexpert'}">
                 <c:param name="expert_id" value="${e.expert_id}"/>
             </c:url>
 
 
-            <a href="${viewexpert}" role="button" class="btn btn-outline-info">
-                <i class="fas fa-book-open"></i> Show
-            </a>
     </tr>
     </c:forEach>
 
