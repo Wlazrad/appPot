@@ -13,10 +13,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
-    <!-- css custom styling-->
-    <link rel="stylesheet" href="${pageContext.request.contextPath}/resources/style.css" type="text/css" />
-
-    <%--<link rel="stylesheet" type="text/css" href="/resources/css/style.css" />--%>
+<%--<link rel="stylesheet" type="text/css" href="/resources/css/style.css" />--%>
 
     <script type="text/javascript">
         function changeTrBg(row){
@@ -48,9 +45,9 @@
     <p><s:message code="info.description2"/></p>
 </div>
 
-<div type="text" style="width: 1000px; padding: 2px;">
-    <input type="text" id="searchString"/>&nbsp;&nbsp;<input type="button" value="<s:message code="button.search"/>"
-                                                             onclick="startSerach();"/>br/>
+<div type="text" style="width: 1000px; padding: 10px;" class="input-group mb-3">
+    <input type="text" id="searchString"/>&nbsp;&nbsp;<input type="button" class="btn btn-primary" value="<s:message code="button.search"/>"
+                                                             onclick="startSerach();"/>
     <span id="errorSearch" style="color: red;"></span>
 </div>
 
@@ -69,10 +66,10 @@
         <c:forEach var="e" items="${expertList }">
             <tr>
                 <td><img src="..." class="rounded float-left" alt="..."></td>
-                <td align="center"  width="150" align="center"><c:out value="${e.job }" /></td>
-                <td align="center"  width="150" align="center"><c:out value="${e.years }" /></td>
+                <td align="center"  width="150" align="center"><c:out value="${e.name }" /></td>
                 <td align="center"  width="150" align="center"><c:out value="${e.location }" /></td>
-                <td align="center"  width="150" align="center"><c:out value="${e.project }" /></td>
+                <td align="center"  width="150" align="center"><c:out value="${e.job }" /></td>
+                <td align="center"  width="150" align="center"><c:out value="${e.number }" /></td>
 
             </tr>
         </c:forEach>

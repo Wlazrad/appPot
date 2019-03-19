@@ -35,7 +35,7 @@
 <tr>
     <td align="center"  width="150" align="center"><c:out value="${comment.comment_id }" /></td>
     <td align="center"  width="150" align="center"><c:out value="${comment.content }" /></td>
-    <td align="center"  width="150" align="center"><a class="btn btn-primary" href="${pageContext.request.contextPath}/viewexpert/${expert.expert_id }/comment" role="button">Comment</a></td>
+
 </tr>
 
 
