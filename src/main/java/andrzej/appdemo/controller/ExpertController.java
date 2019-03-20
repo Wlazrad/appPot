@@ -140,7 +140,9 @@ public class ExpertController {
         Expert expert = expertService.getExpertByIdEquals(expert_id);
 //        User user = userService.getUserByIdEquals(user_id);
 //        model.addAttribute(user);
-
+        List<Comment> comments = commentService.getAllExpertComments(expert_id);
+        System.out.println(comments.size());
+        model.addAttribute("comments",comments);
         model.addAttribute(expert);
         return "viewexpert";
     }

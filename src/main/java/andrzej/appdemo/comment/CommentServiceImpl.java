@@ -54,13 +54,12 @@ public class CommentServiceImpl implements CommentService {
     public List<Comment> findAll() {
         return null;
     }
-//
-//    @Override
-//    public void saveUser(User user) {
-//        user.setPassword(bCryptPasswordEncoder.encode(user.getPassword()));
-//        user.setActive(1);
-//        Role role = roleRepository.findByRole("ROLE_USER");
-//        user.setRoles(new HashSet<Role>(Arrays.asList(role)));
-//        userRepository.save(user);
-//    }
+
+
+    @Override
+    public List<Comment> getAllExpertComments(int expert_id) {
+        List<Comment> comments = commentRepository.getAllExpertComments(expert_id);
+        return comments;
+    }
+
 }

@@ -32,12 +32,35 @@
     <td align="center"  width="150" align="center"><c:out value="${expert.number }" /></td>
 </tr>
 
-<tr>
-    <td align="center"  width="150" align="center"><c:out value="${comment.comment_id }" /></td>
-    <td align="center"  width="150" align="center"><c:out value="${comment.content }" /></td>
 
-</tr>
 
+<div class="tableback" >
+
+
+    <table class="tableback" style="opacity: 0.9">
+
+
+        <tr>
+            <td width="150" align="center"><b><s:message code="admin.user.id"/></b></td>
+            <td width="150" align="center"><b><s:message code="admin.user.id"/></b></td>
+            <td width="150" align="center"><b><s:message code="admin.user.id"/></b></td>
+        </tr>
+
+
+        <c:forEach var="c" items="${comments }">
+            <tr>
+                    <%--<td><img src="/resources/images/<c:out value="${e.id}"/>.jpg" alt="/resources/images/<c:out value="${e.id}"/>.jpg" class="img-thumbnail"></td>--%>
+                <td align="center"  width="150" align="center"><c:out value="${c.comment_id }" /></td>
+                        <td align="center"  width="150" align="center"><c:out value="${c.content }" /></td>
+                        <td align="center"  width="150" align="center"><c:out value="${c.createdAt }" /></td>
+
+
+
+            </tr>
+        </c:forEach>
+
+    </table>
+</div>
 
 <%--<c:url var="viewexpert" value="${'/viewexpert'}">--%>
     <%--<c:param name="id" value="${e.id}"/>--%>

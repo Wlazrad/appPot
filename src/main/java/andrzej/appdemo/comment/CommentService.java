@@ -11,7 +11,7 @@ public interface CommentService {
     public void saveComment(Comment comment);
     public void deleteComment(Comment comment);
     public List<Comment> findAll();
-
+    List<Comment> getAllExpertComments(int expert_id);
 
 
 }
