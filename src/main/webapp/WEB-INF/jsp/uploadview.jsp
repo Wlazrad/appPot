@@ -17,7 +17,7 @@
 
 
 
-<sf:form id="uploadForm" action="${pageContext.request.contextPath}/upload"
+<sf:form id="uploadForm" action="${pageContext.request.contextPath}/upload/${expert_id}"
          method="POST" modelAttribute="fileupload" enctype="multipart/form-data">
     <input type="file" name="files" id="filename"/>
     <input type="submit" value="<s:message code="button.upload"/>"/>

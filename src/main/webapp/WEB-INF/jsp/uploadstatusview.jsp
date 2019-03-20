@@ -16,7 +16,7 @@
     <span text="${msg}"></span>
 </c:if>
 <div>
-    <span><a href="/a">Upload More</a> </span>
+    <span><a href="/">Upload More</a> </span>
 </div>
 
 </body>

@@ -63,51 +63,33 @@
 </div>
 
 
-<div class="tableback" >
 
 
-<table class="tableback" style="opacity: 0.9">
+    <div class="container-fluid">
 
-
- <tr>
-     <td width="150" align="center"><b><s:message code="admin.user.id"/></b></td>
-     <td width="150" align="center"><b><s:message code="expert.job"/></b></td>
-     <td width="150" align="center"><b><s:message code="expert.years"/></b></td>
-     <td width="150" align="center"><b><s:message code="expert.location"/></b></td>
-     <td width="150" align="center"><b><s:message code="expert.project"/></b></td>
-     <td width="150" align="center"><b><s:message code="expert.project"/></b></td>
- </tr>
-
-
+        <div class="row">
     <c:forEach var="e" items="${expertList }">
-    <tr>
-        <%--<td><img src="/resources/images/<c:out value="${e.id}"/>.jpg" alt="/resources/images/<c:out value="${e.id}"/>.jpg" class="img-thumbnail"></td>--%>
-        <td align="center"  width="150" align="center"><c:out value="${e.name }" /></td>
-        <td align="center"  width="150" align="center"><c:out value="${e.location }" /></td>
-        <td align="center"  width="150" align="center"><c:out value="${e.job }" /></td>
-        <td align="center"  width="150" align="center"><c:out value="${e.number }" /></td>
-        <td align="center"  width="150" align="center"><a class="btn btn-primary" href="${pageContext.request.contextPath}/viewexpert/${e.expert_id }" role="button">View</a></td>
-            <td align="center"  width="150" align="center"><a class="btn btn-primary" href="${pageContext.request.contextPath}/viewexpert/comment/${e.expert_id}" role="button">Comment</a></td>
-            <c:url var="viewexpert" value="${'/viewexpert'}">
-                <c:param name="expert_id" value="${e.expert_id}"/>
-            </c:url>
 
+        <div class="col-sm-6 col-md-4">
+        <div class="card" style="width: 22rem;">
+            <img src="/resources/images/6.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title"><c:out value="${e.name }" /></h5>
+                <p class="card-text"><c:out value="${e.job }" /></p>
+                <a href="${pageContext.request.contextPath}/viewexpert/${e.expert_id } " class="btn btn-primary">Info</a>
+                <a href="${pageContext.request.contextPath}/viewexpert/comment/${e.expert_id} " class="btn btn-primary">Wystaw opinie</a>
+                <a href="/photo/${e.expert_id}" class="btn btn-primary">Zdjęcie</a>
+            </div>
+        </div>
+        </div>
 
-    </tr>
     </c:forEach>
-
-    <div class="card" style="width: 18rem;">
-        <img src="..." class="card-img-top" alt="...">
-        <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn btn-primary">Info</a>
-            <a href="#" class="btn btn-primary">Opinie</a>
         </div>
     </div>
 
-</table>
-</div>
+
+
+
 
 </body>
 </html>
