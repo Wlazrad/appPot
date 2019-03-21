@@ -14,6 +14,12 @@
       <change afterPath="$PROJECT_DIR$/../Server/src/SocketServer.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Spring/src/main/resources/templates/knight.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Spring/src/main/resources/templates/knightform.HTML" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_mail_javax_mail_1_6_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_activation_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_mail_2_0_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_5_0_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/andrzej/appdemo/EmailSender/EmailSender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/andrzej/appdemo/EmailSender/EmailSenderImpl.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../appdemo/.idea/encodings.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../appdemo/.idea/misc.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../appdemo/.idea/modules.xml" afterDir="false" />
@@ -139,17 +145,25 @@
       <change beforePath="$PROJECT_DIR$/../Zelent/portfolio/scscs.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Zelent/portfolio/style.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/appPot.iml" beforeDir="false" afterPath="$PROJECT_DIR$/appPot.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/andrzej/appdemo/configuration/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/andrzej/appdemo/configuration/SecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/andrzej/appdemo/controller/FileUploadController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/andrzej/appdemo/controller/FileUploadController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/messages.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/messages.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/incl/menu.app" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/incl/menu.app" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/andrzej/appdemo/user/RegisterController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/andrzej/appdemo/user/RegisterController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/andrzej/appdemo/user/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/andrzej/appdemo/user/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/andrzej/appdemo/user/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/andrzej/appdemo/user/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/andrzej/appdemo/user/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/andrzej/appdemo/user/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/andrzej/appdemo/user/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/andrzej/appdemo/user/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/andrzej/appdemo/utilities/AppdemoUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/andrzej/appdemo/utilities/AppdemoUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/indexsearch.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/indexsearch.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/uploadstatusview.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/uploadstatusview.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/uploadview.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/uploadview.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/andrzej/appdemo/configuration/SecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/andrzej/appdemo/configuration/SecurityConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/andrzej/appdemo/controller/FileUploadController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/andrzej/appdemo/controller/FileUploadController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/messages.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/messages.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/andrzej/appdemo/user/RegisterController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/andrzej/appdemo/user/RegisterController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/andrzej/appdemo/user/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/andrzej/appdemo/user/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/andrzej/appdemo/user/UserRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/andrzej/appdemo/user/UserRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/andrzej/appdemo/user/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/andrzej/appdemo/user/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/andrzej/appdemo/user/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/andrzej/appdemo/user/UserServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/andrzej/appdemo/utilities/AppdemoUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/andrzej/appdemo/utilities/AppdemoUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../gry/KeyMaster/.idea/KeyMaster.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../gry/KeyMaster/.idea/misc.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../gry/KeyMaster/.idea/modules.xml" beforeDir="false" />
@@ -395,56 +409,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/index.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="61" column="1" selection-start-line="61" selection-start-column="1" selection-end-line="61" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/andrzej/appdemo/configuration/SecurityConfig.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/andrzej/appdemo/user/UserRepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="23" column="4" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/indexsearch.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="935">
-              <caret line="55" selection-start-line="55" selection-end-line="55" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/error.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="39" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="42" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/addexpert.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="29" column="4" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/andrzej/appdemo/controller/FileUploadController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="46" column="72" selection-start-line="46" selection-start-column="72" selection-end-line="46" selection-end-column="72" />
+            <state relative-caret-position="476">
+              <caret line="28" column="41" selection-start-line="28" selection-start-column="41" selection-end-line="28" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -453,6 +422,56 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/andrzej/appdemo/EmailSender/EmailSender.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="62" selection-start-line="3" selection-start-column="62" selection-end-line="3" selection-end-column="62" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/andrzej/appdemo/user/UserService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="41" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/messages.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="451">
+              <caret line="94" column="30" selection-start-line="94" selection-start-column="30" selection-end-line="94" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="485">
+              <caret line="58" selection-start-line="58" selection-end-line="58" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/index.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="181">
+              <caret line="69" column="25" selection-start-line="69" selection-start-column="25" selection-end-line="69" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/static/images/7.jpg">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/uploadview.jsp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="323">
@@ -462,19 +481,15 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/uploadstatusview.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/src/main/resources/static/images/6.jpg">
+          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/messages.properties">
+        <entry file="file://$PROJECT_DIR$/src/main/java/andrzej/appdemo/user/UserServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1598">
-              <caret line="94" column="30" selection-start-line="94" selection-start-column="30" selection-end-line="94" selection-end-column="30" />
+            <state relative-caret-position="479">
+              <caret line="41" selection-start-line="41" selection-end-line="41" />
             </state>
           </provider>
         </entry>
@@ -486,9 +501,9 @@
       <list>
         <option value="Erlang Module" />
         <option value="HTML File" />
+        <option value="Jsp File" />
         <option value="Interface" />
         <option value="Class" />
-        <option value="Jsp File" />
       </list>
     </option>
   </component>
@@ -512,10 +527,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/andrzej/appdemo/configuration/WebMvcConfig.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/photos.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/andrzej/appdemo/controller/PhotoController.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/idexsearch.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/andrzej/appdemo/admin/AdminService.java" />
         <option value="$PROJECT_DIR$/src/main/java/andrzej/appdemo/admin/AdminRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/andrzej/appdemo/admin/AdminServiceImpl.java" />
@@ -524,21 +535,15 @@
         <option value="$PROJECT_DIR$/src/main/resources/static/css/style.css" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/importPhoto.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/andrzej/appdemo/configuration/MainWebAppInitializer.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/andrzej/appdemo/user/ProfilController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/profil.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/andrzej/appdemo/AppdemoApplication.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/logowaniePw.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/logowaniePW.html" />
-        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/src/main/resources/SqlScripts/experts.sql" />
         <option value="$PROJECT_DIR$/src/main/java/andrzej/appdemo/mainController/LoginPageController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/andrzej/appdemo/user/User.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/addexpert.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/allexperts.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/andrzej/appdemo/user/UserService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/andrzej/appdemo/user/UserServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/andrzej/appdemo/user/UserRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/andrzej/appdemo/utilities/UserUtilities.java" />
         <option value="$PROJECT_DIR$/src/main/java/andrzej/appdemo/mainController/MainPageController.java" />
         <option value="$PROJECT_DIR$/src/main/java/andrzej/appdemo/entityexp/Expert.java" />
@@ -560,8 +565,18 @@
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/uploadview.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/andrzej/appdemo/controller/FileUploadController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/uploadstatusview.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/andrzej/appdemo/configuration/SecurityConfig.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/indexsearch.jsp" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/andrzej/appdemo/user/User.java" />
+        <option value="$PROJECT_DIR$/src/main/java/andrzej/appdemo/utilities/AppdemoUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/andrzej/appdemo/EmailSender/EmailSender.java" />
+        <option value="$PROJECT_DIR$/src/main/java/andrzej/appdemo/EmailSender/EmailSenderImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/andrzej/appdemo/user/UserService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/andrzej/appdemo/user/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/andrzej/appdemo/configuration/SecurityConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/andrzej/appdemo/user/RegisterController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/andrzej/appdemo/user/UserRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/index.jsp" />
       </list>
     </option>
@@ -585,9 +600,9 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="200" />
-    <option name="y" value="195" />
-    <option name="width" value="1129" />
+    <option name="x" value="-8" />
+    <option name="y" value="3" />
+    <option name="width" value="1043" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -596,6 +611,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -674,6 +690,15 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="appdemo" type="462c0819:PsiDirectoryNode" />
               <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="appPot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="appPot" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="appdemo" type="462c0819:PsiDirectoryNode" />
+              <item name="EmailSender" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="appPot" type="b2602c69:ProjectViewProjectNode" />
@@ -808,7 +833,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -820,7 +844,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553084405140" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553164169603" />
     <property name="database.console.LAST_STATE" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -956,12 +980,14 @@
       <workItem from="1553065687440" duration="11593000" />
       <workItem from="1553081520534" duration="3081000" />
       <workItem from="1553096374619" duration="1852000" />
-      <workItem from="1553102585565" duration="2333000" />
+      <workItem from="1553102585565" duration="4163000" />
+      <workItem from="1553145804791" duration="8932000" />
+      <workItem from="1553159233763" duration="4851000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="576417000" />
+    <option name="totallyTimeSpent" value="592030000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -973,10 +999,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="200" y="195" width="1129" height="1047" extended-state="0" />
+    <frame x="-8" y="3" width="1043" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49918434" visible="true" weight="0.27408794" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49918434" visible="true" weight="0.30722278" />
       <window_info id="Structure" order="1" sideWeight="0.5008157" side_tool="true" weight="0.27470142" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -987,15 +1013,15 @@
       <window_info id="Query Editor" order="8" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32932165" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49814126" visible="true" weight="0.29978117" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49814126" visible="true" weight="0.2964989" />
       <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
       <window_info anchor="bottom" id="Debug" order="5" weight="0.39934355" />
       <window_info anchor="bottom" id="Docker" order="6" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5018587" side_tool="true" weight="0.29978117" />
       <window_info anchor="bottom" id="TODO" order="8" weight="0.32932165" />
-      <window_info anchor="bottom" id="Spring" order="9" weight="0.32932165" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32822758" />
+      <window_info anchor="bottom" id="Spring" order="9" weight="0.32827735" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32719395" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32932165" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.32932165" />
       <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
@@ -1009,7 +1035,7 @@
       <window_info anchor="bottom" id="SOQL Query" order="21" />
       <window_info active="true" anchor="bottom" id="Database Console" order="22" visible="true" weight="0.32932165" />
       <window_info anchor="bottom" id="Thumbnails" order="23" weight="0.32932165" />
-      <window_info anchor="bottom" id="Version Control" order="24" weight="0.32932165" />
+      <window_info anchor="bottom" id="Version Control" order="24" weight="0.32827735" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24972856" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -1070,62 +1096,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/images/rerererer.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/images/palama.jpg" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/images/niedokonczona11.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/SqlScripts/experts.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="9" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/allexperts.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="28" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/andrzej/appdemo/user/UserRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/andrzej/appdemo/user/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="35" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/andrzej/appdemo/utilities/UserUtilities.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/andrzej/appdemo/user/UserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="20" column="27" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
-          <folding>
-            <element signature="e#743#744#0" expanded="true" />
-            <element signature="e#790#791#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/8.5.32/tomcat-embed-core-8.5.32.jar!/javax/servlet/http/HttpServlet.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4029">
@@ -1168,27 +1138,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/andrzej/appdemo/user/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1275">
-          <caret line="111" lean-forward="true" selection-start-line="111" selection-end-line="111" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/andrzej/appdemo/user/Role.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="17" column="12" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/andrzej/appdemo/user/RegisterController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -1307,16 +1260,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/andrzej/appdemo/comment/CommentServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="337">
-          <caret line="56" selection-start-line="56" selection-end-line="56" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/andrzej/appdemo/mainController/MainPageController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -1351,16 +1294,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/andrzej/appdemo/comment/CommentController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1377">
-          <caret line="99" selection-start-line="99" selection-end-line="99" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/incl/admenu.app">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1368,16 +1301,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/images/6.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/andrzej/appdemo/configuration/SecurityConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="23" column="4" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="4" />
         </state>
       </provider>
     </entry>
@@ -1395,6 +1318,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/addexpert.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="4" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/andrzej/appdemo/controller/FileUploadController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
@@ -1405,13 +1335,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/uploadview.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="36" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/uploadstatusview.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -1419,24 +1342,140 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="697">
+          <caret line="128" lean-forward="true" selection-start-line="128" selection-end-line="128" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/andrzej/appdemo/configuration/SecurityConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/andrzej/appdemo/utilities/AppdemoUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="26" column="28" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/andrzej/appdemo/user/RegisterController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="782">
+          <caret line="62" column="26" selection-start-line="62" selection-start-column="26" selection-end-line="62" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/andrzej/appdemo/comment/CommentServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="18" column="10" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/andrzej/appdemo/comment/CommentController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1054">
+          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/andrzej/appdemo/user/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="45" column="28" selection-start-line="45" selection-start-column="20" selection-end-line="45" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2761#2762#0" expanded="true" />
+            <element signature="e#2798#2799#0" expanded="true" />
+            <element signature="e#2858#2859#0" expanded="true" />
+            <element signature="e#2910#2911#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/andrzej/appdemo/EmailSender/EmailSenderImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="9" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/andrzej/appdemo/EmailSender/EmailSender.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="62" selection-start-line="3" selection-start-column="62" selection-end-line="3" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/andrzej/appdemo/user/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="41" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/andrzej/appdemo/user/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="479">
+          <caret line="41" selection-start-line="41" selection-end-line="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/andrzej/appdemo/user/UserRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="41" selection-start-line="28" selection-start-column="41" selection-end-line="28" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/messages.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1598">
+        <state relative-caret-position="451">
           <caret line="94" column="30" selection-start-line="94" selection-start-column="30" selection-end-line="94" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/addexpert.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="4" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="4" />
+        <state relative-caret-position="485">
+          <caret line="58" selection-start-line="58" selection-end-line="58" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="61" column="1" selection-start-line="61" selection-start-column="1" selection-end-line="61" selection-end-column="1" />
+        <state relative-caret-position="181">
+          <caret line="69" column="25" selection-start-line="69" selection-start-column="25" selection-end-line="69" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/images/6.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/images/7.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/uploadview.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="36" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
         </state>
       </provider>
     </entry>

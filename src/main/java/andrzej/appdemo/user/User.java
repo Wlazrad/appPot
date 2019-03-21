@@ -43,6 +43,8 @@ public class User {
     @JoinTable(name = "user_role", joinColumns = @JoinColumn(name = "user_id"), inverseJoinColumns = @JoinColumn(name = "role_id"))
     private Set<Role> roles;
 
+    @Column(name = "activation_code")
+    private String activationCode;
 
 
 
@@ -142,4 +144,12 @@ public class User {
         this.newPassword = newPassword;
     }
 
+
+    public String getActivationCode() {
+        return activationCode;
+    }
+
+    public void setActivationCode(String activationCode) {
+        this.activationCode = activationCode;
+    }
 }

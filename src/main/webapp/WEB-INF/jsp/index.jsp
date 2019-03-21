@@ -72,7 +72,7 @@
 
         <div class="col-sm-6 col-md-4">
         <div class="card" style="width: 22rem;">
-            <img src="/resources/images/6.jpg" class="card-img-top" alt="...">
+            <img src="/resources/images/${e.expert_id}.jpg" class="card-img-top" alt="...">
             <div class="card-body">
                 <h5 class="card-title"><c:out value="${e.name }" /></h5>
                 <p class="card-text"><c:out value="${e.job }" /></p>

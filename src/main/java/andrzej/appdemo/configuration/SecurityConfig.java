@@ -50,6 +50,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 		.antMatchers("/adduser").permitAll()
 		.antMatchers("/viewexpert/{expert_id}").permitAll()
 		.antMatchers("/resources/images/{expert_id}").permitAll()
+		.antMatchers("/activatelink/**").permitAll()
 //		.antMatchers("/admin").hasAuthority("ROLE_ADMIN")
 		.anyRequest().authenticated()
 		.and().csrf().disable()

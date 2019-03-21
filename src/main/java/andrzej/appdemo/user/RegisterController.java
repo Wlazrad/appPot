@@ -5,11 +5,15 @@ import java.util.Locale;
 import javax.ws.rs.GET;
 import javax.ws.rs.POST;
 
+import andrzej.appdemo.EmailSender.EmailSender;
+import andrzej.appdemo.utilities.AppdemoUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.MessageSource;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 import andrzej.appdemo.validators.UserRegisterValidator;
@@ -22,6 +26,9 @@ public class RegisterController {
 	
 	@Autowired
 	MessageSource messageSource;
+
+	@Autowired
+	private EmailSender emailSender;
 	
 	@GET
 	@RequestMapping(value = "/register")
@@ -46,13 +53,26 @@ public class RegisterController {
 		if (result.hasErrors()) {
 			returnPage = "register";
 		} else {
+			user.setActivationCode(AppdemoUtils.randomStringGenerator());
+			String content = "Wymagane potwierdzenie rejstracji. Kliknij w poniższy link aby aktywować konto:\n"+
+					"http://localhost:8080/activatelink/"+ user.getActivationCode();
 			userService.saveUser(user);
-			model.addAttribute("message", messageSource.getMessage("user.register.success", null, locale));
+			emailSender.sendEmail(user.getEmail(),"Potwierdzenie rejstracji", content);
+			model.addAttribute( "message", messageSource.getMessage("user.register.success", null, locale));
 			model.addAttribute("user", new User());
-			returnPage = "register";
+			returnPage = "index";
 		}
 		
 		return returnPage;
+	}
+
+	@POST
+	@RequestMapping(value = "/activatelink/{activationCode}")
+	public String activateAccount(@PathVariable("activationCode")String activationCode, Model model, Locale locale){
+		userService.updateUserActivation(1,activationCode);
+		model.addAttribute("message", messageSource.getMessage("sukces", null, locale));
+
+		return "index";
 	}
 
 	
