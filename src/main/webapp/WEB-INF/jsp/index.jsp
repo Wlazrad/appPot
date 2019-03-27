@@ -40,52 +40,48 @@
             }
         }
     </script>
+
+
 <body>
 <div>
     <%@include file="/WEB-INF/incl/menu.app" %>
 </div>
     <div class="tableback">
-<p><s:message code="info.description2"/></p>
-
+<p class="text-primary"><s:message code="info.description2"/></p>
+        <div class="shadow p-3 mb-5 bg-white rounded">Wpisz słowa kluczowe np. Lokalizację, która Cię intersuje
 
     <div type="text" style="width: 1000px; padding: 10px;" class="input-group mb-3">
         <input type="text" id="searchString"/>&nbsp;&nbsp;<input type="button" class="btn btn-primary" value="<s:message code="button.search"/>"
                                                                  onclick="startSerach();"/>
         <span id="errorSearch" style="color: red;"></span>
     </div>
-
-
 </div>
+    </div>
 
-
-<div>
-
-</div>
-
-
-
-
-    <div class="container-fluid">
+    <%--<div class="container-fluid" style="background-color:#e6c943">--%>
 
         <div class="row">
     <c:forEach var="e" items="${expertList }">
 
-        <div class="col-sm-6 col-md-4">
-        <div class="card" style="width: 22rem;">
+        <div class="col-sm-10 col-md-4" style="text-align: center;">
+
+        <div class="card" style="width: 15rem;">
             <img src="/resources/images/${e.expert_id}.jpg" class="card-img-top" alt="...">
             <div class="card-body">
                 <h5 class="card-title"><c:out value="${e.name }" /></h5>
                 <p class="card-text"><c:out value="${e.job }" /></p>
                 <a href="${pageContext.request.contextPath}/viewexpert/${e.expert_id } " class="btn btn-primary">Info</a>
                 <a href="${pageContext.request.contextPath}/viewexpert/comment/${e.expert_id} " class="btn btn-primary">Wystaw opinie</a>
-                <a href="/photo/${e.expert_id}" class="btn btn-primary">Zdjęcie</a>
+                <a href="/photo/${e.expert_id}" class="btn btn-primary"><s:message code="menu.photo"/></a>
             </div>
         </div>
         </div>
 
+
     </c:forEach>
         </div>
     </div>
+
 
 
 

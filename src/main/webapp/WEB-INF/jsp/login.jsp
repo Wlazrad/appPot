@@ -68,6 +68,8 @@
 						</div>
 						<input type="password" name="password" id="password" class="form-control" placeholder="Email" aria-label="Email" aria-describedby="basic-addon1">
 					</div>
+					<input colspan="4" class="btn btn-success"  type="submit" value="<s:message code="logging" />">
+
 
 				</td>
 			</tr>
@@ -75,7 +77,6 @@
 			<tr>
 				<td>
 
-					<input colspan="4" class="btn btn-success"  type="submit" value="<s:message code="logging" />">
 
 
 				</td>

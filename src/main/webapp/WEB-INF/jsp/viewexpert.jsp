@@ -22,14 +22,16 @@
 </head>
 <body>
 
-
+<h1>Dane o fachowcu</h1>
 
 <tr>
         <%--<td><img src="/resources/images/<c:out value="${e.id}"/>.jpg" alt="/resources/images/<c:out value="${e.id}"/>.jpg" class="img-thumbnail"></td>--%>
-    <td align="center"  width="150" align="center"><c:out value="${expert.name }" /></td>
-    <td align="center"  width="150" align="center"><c:out value="${expert.location }" /></td>
-    <td align="center"  width="150" align="center"><c:out value="${expert.job }" /></td>
-    <td align="center"  width="150" align="center"><c:out value="${expert.number }" /></td>
+            <h4>Imię : <td align="center"  width="150" align="center"><c:out value="${expert.name }" /></td></h4>
+            <h4>Lokalizacja : <td align="center"  width="150" align="center"><c:out value="${expert.location }" /></td></h4>
+            <br>
+            <h4>Wykonywana praca : <td align="center"  width="150" align="center"><c:out value="${expert.job }" /></td></h4>
+            <br>
+            <h4>Numer telefonu : <td align="center"  width="150" align="center"><c:out value="${expert.number }" /></td></h4>
 </tr>
 
 
@@ -37,22 +39,23 @@
 <div class="tableback" >
 
 
-    <table class="tableback" style="opacity: 0.9">
+    <table class="table table-striped" style="opacity: 0.9">
 
 
         <tr>
-            <td width="150" align="center"><b><s:message code="admin.user.id"/></b></td>
-            <td width="150" align="center"><b><s:message code="admin.user.id"/></b></td>
-            <td width="150" align="center"><b><s:message code="admin.user.id"/></b></td>
+
+            <td width="150" align="center"><b><s:message code="comment.content"/></b></td>
+            <td width="150" align="center"><b><s:message code="comment.createdAt"/></b></td>
         </tr>
 
 
         <c:forEach var="c" items="${comments }">
             <tr>
                     <%--<td><img src="/resources/images/<c:out value="${e.id}"/>.jpg" alt="/resources/images/<c:out value="${e.id}"/>.jpg" class="img-thumbnail"></td>--%>
-                <td align="center"  width="150" align="center"><c:out value="${c.comment_id }" /></td>
-                        <td align="center"  width="150" align="center"><c:out value="${c.content }" /></td>
+                        <td class="text-break" align="center"  width="150" align="center"><c:out value="${c.content }" /></td>
                         <td align="center"  width="150" align="center"><c:out value="${c.createdAt }" /></td>
+
+
 
 
 
@@ -65,6 +68,8 @@
 <%--<c:url var="viewexpert" value="${'/viewexpert'}">--%>
     <%--<c:param name="id" value="${e.id}"/>--%>
 <%--</c:url>--%>
+
+<a href="${pageContext.request.contextPath}/index " align="center" class="btn btn-primary">Wróć</a>
 
 </body>
 </html>

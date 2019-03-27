@@ -41,8 +41,6 @@ public class Expert {
     @Column(name = "details")
     private String details;
 
-
-
     @Column(name = "image_url")
     private String image_url;
 

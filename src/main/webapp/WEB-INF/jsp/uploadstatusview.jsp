@@ -16,7 +16,12 @@
     <span text="${msg}"></span>
 </c:if>
 <div>
-    <span><a href="/">Upload More</a> </span>
+
+
+    <h5>Zdjęcie dodane pomyślnie, pojawi się po akceptacji administratora <span class="badge badge-secondary">New</span></h5>
+
+    <span><a class="badge badge-secondary" style="width: 6rem;" href="/">Kliknij, powrót na stronę główną</a> </span>
+
 </div>
 
 </body>

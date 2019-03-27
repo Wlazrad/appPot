@@ -52,11 +52,13 @@ public class CommentController  {
     public String openCommentPage(@PathVariable int expert_id, Model model) {
         Comment comment = new Comment();
         Expert expert = new Expert();
+        String username;
         expert=expertService.getExpertByIdEquals(expert_id);
 
         comment.setExpert_id(expert_id);
         model.addAttribute(comment);
         model.addAttribute(expert);
+
 
         return "comment";
     }

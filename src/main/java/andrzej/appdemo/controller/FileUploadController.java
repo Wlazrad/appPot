@@ -46,6 +46,7 @@ public class FileUploadController {
         for(MultipartFile file : files){
             Path fileNameAndPath = Paths.get(uploadDirectory, expert_id+".jpg");
             fileNames.append(file.getOriginalFilename());
+            System.out.println(file);
             try{
                 Files.write(fileNameAndPath, file.getBytes());
             }catch (IOException e){

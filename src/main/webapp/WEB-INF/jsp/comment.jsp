@@ -25,26 +25,23 @@
     <%@include file="/WEB-INF/incl/menu.app" %>
 </div>
 
-<td align="center"  width="150" align="center"><c:out value="${expert.expert_id }" /></td>
 
 
-<td align="center"  width="150" align="center"><c:out value="${comment.content }" /></td>
-
-
+<h5>Napisz kilka słów o współpracy</h5>
 <sf:form id="commentForm" action="addexpertcomment/${expert.expert_id }" modelAttribute="comment"
 enctype="multipart/form-data" method="POST">
 <div class="input-group">
     <%--<div class="input-group-prepend">--%>
         <%--<span class="input-group-text">With textarea</span>--%>
     <%--</div>--%>
-    <sf:textarea path="content" />
+    <sf:textarea class="form-control" rows="5" id="comment" path="content" />
 
     <sf:hidden path="createdAt"></sf:hidden>
 
 </div>
 
 <div>
-    <button type="submit" class="btn btn-outline-primary">Primary</button>
+    <button type="submit" class="btn btn-outline-primary">Dodaj Opinie</button>
 </div>
 </sf:form>
 

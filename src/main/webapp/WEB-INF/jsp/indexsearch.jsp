@@ -57,11 +57,10 @@
     <table class="tableback" style="opacity: 0.9">
 
         <tr>
-            <td width="150" align="center"><b><s:message code="admin.user.id"/></b></td>
-            <td width="150" align="center"><b><s:message code="expert.job"/></b></td>
-            <td width="150" align="center"><b><s:message code="expert.years"/></b></td>
+            <td width="150" align="center"><b><s:message code="expert.name"/></b></td>
             <td width="150" align="center"><b><s:message code="expert.location"/></b></td>
-            <td width="150" align="center"><b><s:message code="expert.project"/></b></td>
+            <td width="150" align="center"><b><s:message code="expert.job"/></b></td>
+            <td width="150" align="center"><b><s:message code="expert.number"/></b></td>
         </tr>
         <c:forEach var="e" items="${expertList }">
             <tr>
