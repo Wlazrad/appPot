@@ -14,6 +14,7 @@ public interface ExpertService {
     public Expert getExpert();
     Expert getExpertByIdEquals(int expert_id);
     boolean addComment(Comment comment);
+    public void updatePhoto(int expert_id, String image_url);
 
 
 }

@@ -67,7 +67,12 @@ public class ExpertServiceImpl implements ExpertService {
         return false;
     }
 
+    @Override
+    public void updatePhoto(int expert_id, String image_url) {
+        Expert expert = expertRepository.getExpertByIdEquals(expert_id);
+        expert.setImage_url(image_url);
 
+    }
 
 
 }

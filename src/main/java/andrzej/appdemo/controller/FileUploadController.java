@@ -52,6 +52,10 @@ public class FileUploadController {
 
             try{
                 Files.write(fileNameAndPath, file.getBytes());
+                byte[] fileContent = FileUtils.readFileToByteArray(new File("C:\\RW\\git\\appPot\\src\\main\\resources\\static\\images\\"+expert_id+".jpg"));
+                String encodedString = Base64.getEncoder().encodeToString(fileContent);
+                System.out.println(encodedString);
+                expertService.updatePhoto(expert_id,encodedString);
             }catch (IOException e){
                 e.printStackTrace();
             }

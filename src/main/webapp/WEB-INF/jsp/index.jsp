@@ -68,7 +68,7 @@
         <div class="col-sm-10 col-md-4" style="text-align: center;">
 
             <div class="card" style="width: 15rem;">
-                <img src="/resources/images/${e.expert_id}.jpg" class="card-img-top" alt="...">
+                <img src="data:image/jpeg;base64,${e.image_url}" class="card-img-top" alt="${e.image_url}">
                 <div class="card-body">
                     <h5 class="card-title"><c:out value="${e.name }"/></h5>
                     <p class="card-text"><c:out value="${e.job }"/></p>
@@ -84,7 +84,5 @@
     </c:forEach>
 </div>
 </div>
-
-
 </body>
 </html>

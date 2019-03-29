@@ -74,6 +74,12 @@ CONSTRAINT FK_COMENT FOREIGN KEY (`comment_id`)REFERENCES `comment`(`comment_id`
 )ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 
+CREATE TABLE `user_expert` (
+                             `user_id` int(11) NOT NULL,
+                             `expert_id` int(11) DEFAULT NULL,
+                             PRIMARY KEY (`user_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8
+
 
 
 
