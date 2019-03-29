@@ -2,22 +2,17 @@ package andrzej.appdemo.entityexp;
 
 
 import andrzej.appdemo.comment.Comment;
-import andrzej.appdemo.user.User;
 import lombok.ToString;
 import org.hibernate.annotations.Fetch;
 import org.hibernate.annotations.FetchMode;
 
 import javax.persistence.*;
 import javax.validation.constraints.NotNull;
-
 import java.util.Collection;
-
-import static org.eclipse.jdt.internal.compiler.codegen.ConstantPool.ToString;
 
 @Entity
 @Table(name = "expert", schema = "mojabaza")
 public class Expert {
-
 
 
     @Id
@@ -53,9 +48,10 @@ public class Expert {
     @Fetch(FetchMode.JOIN)
     private Collection<Comment> comments;
 
-    public Expert() {}
+    public Expert() {
+    }
 
-    public Expert( String name, String location, String job, String details, int number) {
+    public Expert(String name, String location, String job, String details, int number) {
         this.name = name;
         this.location = location;
         this.job = job;

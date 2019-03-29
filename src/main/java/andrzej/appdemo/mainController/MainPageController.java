@@ -1,7 +1,5 @@
 package andrzej.appdemo.mainController;
 
-import javax.ws.rs.GET;
-
 import andrzej.appdemo.comment.Comment;
 import andrzej.appdemo.comment.CommentService;
 import andrzej.appdemo.entityexp.Expert;
@@ -14,42 +12,42 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 
+import javax.ws.rs.GET;
 import java.util.List;
 
 @Controller
 public class MainPageController {
 
-	@Autowired
-	private ExpertService expertService;
-	@Autowired
-	private UserService userService;
-	@Autowired
-	private CommentService commentService;
-
-	
-	@GET
-	@RequestMapping(value = {"/", "/index"})
-	public String showMainPage(Model model) {
-		String username = UserUtilities.getLoggedUser();
-		User user = userService.findUserByEmail(username);
-		List<Expert> expertList = getAllExperts();
-		List<Comment> commentList = getAllComment();
-		model.addAttribute("user",user);
-		model.addAttribute("expertList",expertList);
-		model.addAttribute("commentList", commentList);
-		return "index";
-	}
+    @Autowired
+    private ExpertService expertService;
+    @Autowired
+    private UserService userService;
+    @Autowired
+    private CommentService commentService;
 
 
+    @GET
+    @RequestMapping(value = {"/", "/index"})
+    public String showMainPage(Model model) {
+        String username = UserUtilities.getLoggedUser();
+        User user = userService.findUserByEmail(username);
+        List<Expert> expertList = getAllExperts();
+        List<Comment> commentList = getAllComment();
+        model.addAttribute("user", user);
+        model.addAttribute("expertList", expertList);
+        model.addAttribute("commentList", commentList);
+        return "index";
+    }
 
-	private List<Expert> getAllExperts(){
-		List<Expert> expertList = expertService.findAll();
-		return expertList;
-	}
 
-	private List<Comment> getAllComment(){
-		List<Comment> commentList = commentService.findAll();
-		return commentList;
-	}
-	
+    private List<Expert> getAllExperts() {
+        List<Expert> expertList = expertService.findAll();
+        return expertList;
+    }
+
+    private List<Comment> getAllComment() {
+        List<Comment> commentList = commentService.findAll();
+        return commentList;
+    }
+
 }

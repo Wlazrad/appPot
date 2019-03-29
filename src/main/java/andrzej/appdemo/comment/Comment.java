@@ -4,12 +4,9 @@ package andrzej.appdemo.comment;
 import andrzej.appdemo.entityexp.Expert;
 import andrzej.appdemo.user.User;
 import lombok.ToString;
-import org.springframework.beans.factory.annotation.Value;
 
 import javax.persistence.*;
 import java.time.LocalDateTime;
-import java.util.List;
-import java.util.Set;
 
 @Entity
 @Table(name = "comment", schema = "mojabaza")
@@ -49,7 +46,8 @@ public class Comment {
             inverseJoinColumns = @JoinColumn(name = "user_id"))
     private User user;
 
-    public Comment() { }
+    public Comment() {
+    }
 
 
     public Comment(String content, int user_id, int expert_id, LocalDateTime createdAt) {
@@ -63,7 +61,6 @@ public class Comment {
         this.content = content;
         this.createdAt = createdAt;
     }
-
 
 
     public Integer getComment_id() {

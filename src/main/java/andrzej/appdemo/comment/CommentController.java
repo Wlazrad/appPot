@@ -5,24 +5,18 @@ import andrzej.appdemo.entityexp.Expert;
 import andrzej.appdemo.entityexp.ExpertService;
 import andrzej.appdemo.user.User;
 import andrzej.appdemo.user.UserService;
-import andrzej.appdemo.utilities.UserUtilities;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.security.access.annotation.Secured;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
-import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
 
 import javax.ws.rs.GET;
 import javax.ws.rs.POST;
 import java.time.LocalDateTime;
-import java.util.List;
-import java.util.Locale;
 
 @Controller
-public class CommentController  {
+public class CommentController {
 
     @Autowired
     CommentService commentService;
@@ -53,7 +47,7 @@ public class CommentController  {
         Comment comment = new Comment();
         Expert expert = new Expert();
         String username;
-        expert=expertService.getExpertByIdEquals(expert_id);
+        expert = expertService.getExpertByIdEquals(expert_id);
 
         comment.setExpert_id(expert_id);
         model.addAttribute(comment);
@@ -62,10 +56,6 @@ public class CommentController  {
 
         return "comment";
     }
-
-
-
-
 
 
     @POST
@@ -93,7 +83,6 @@ public class CommentController  {
         User user = userService.getUserByIdEquals(13);
 
 
-
 //        comment.setExpert(expert);
 //        comment.setUser(user);
 //        comment.setUser_id(1);
@@ -106,12 +95,6 @@ public class CommentController  {
 
         return "comment";
     }
-
-
-
-
-
-
 
 
 }
