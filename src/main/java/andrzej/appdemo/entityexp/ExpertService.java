@@ -2,6 +2,8 @@ package andrzej.appdemo.entityexp;
 
 import andrzej.appdemo.comment.Comment;
 import andrzej.appdemo.user.User;
+import org.springframework.data.jpa.repository.Modifying;
+import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
 
 import java.util.List;
@@ -15,6 +17,8 @@ public interface ExpertService {
     Expert getExpertByIdEquals(int expert_id);
     boolean addComment(Comment comment);
     public void updatePhoto(int expert_id, String image_url);
+    List<Expert> getExpertWhereUserId(int user_id);
+    void deleteExpertById(int id);
 
 
 }

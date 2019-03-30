@@ -2,6 +2,7 @@ package andrzej.appdemo.entityexp;
 
 
 import andrzej.appdemo.comment.Comment;
+import andrzej.appdemo.user.User;
 import lombok.ToString;
 import org.hibernate.annotations.Fetch;
 import org.hibernate.annotations.FetchMode;
@@ -43,10 +44,16 @@ public class Expert {
     @Column(name = "number")
     private int number;
 
+    @Column(name="user_id")
+    private int user_id;
+
+
     @ToString.Exclude
     @OneToMany(mappedBy = "expert", cascade = CascadeType.ALL)
     @Fetch(FetchMode.JOIN)
     private Collection<Comment> comments;
+
+
 
     public Expert() {
     }
@@ -123,5 +130,13 @@ public class Expert {
 
     public void setComments(Collection<Comment> comments) {
         this.comments = comments;
+    }
+
+    public int getUser_id() {
+        return user_id;
+    }
+
+    public void setUser_id(int user_id) {
+        this.user_id = user_id;
     }
 }

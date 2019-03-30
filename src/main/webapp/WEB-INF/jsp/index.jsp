@@ -46,6 +46,8 @@
 <body>
 <div>
     <%@include file="/WEB-INF/incl/menu.app" %>
+
+
 </div>
 <div class="tableback">
     <p class="text-primary"><s:message code="info.description2"/></p>
@@ -75,7 +77,6 @@
                     <a href="${pageContext.request.contextPath}/viewexpert/${e.expert_id } " class="btn btn-primary">Info</a>
                     <a href="${pageContext.request.contextPath}/viewexpert/comment/${e.expert_id} "
                        class="btn btn-primary">Wystaw opinie</a>
-                    <a href="/photo/${e.expert_id}" class="btn btn-primary"><s:message code="menu.photo"/></a>
                 </div>
             </div>
         </div>

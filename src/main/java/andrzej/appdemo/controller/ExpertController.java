@@ -64,9 +64,13 @@ public class ExpertController {
         if (result.hasErrors()) {
             returnPage = "addexpert";
         } else {
+            String username = UserUtilities.getLoggedUser();
+            User user = userService.findUserByEmail(username);
+            expert.setUser_id(user.getId());
             expertService.saveExpert(expert);
             model.addAttribute("expert", new Expert());
             returnPage = "addexpert";
+
         }
 
         return returnPage;
