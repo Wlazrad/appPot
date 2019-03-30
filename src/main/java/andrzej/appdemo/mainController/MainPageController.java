@@ -38,6 +38,11 @@ public class MainPageController {
         User user = userService.findUserByEmail(username);
         List<Expert> expertList = getAllExperts();
         List<Comment> commentList = getAllComment();
+
+        if(user!=null){
+            model.addAttribute("user_id", user.getId());
+        }
+
         model.addAttribute("user", user);
         model.addAttribute("expertList", expertList);
         model.addAttribute("commentList", commentList);
@@ -51,11 +56,16 @@ public class MainPageController {
         User user = userService.findUserByEmail(username);
         List<Expert> expertList = expertService.getExpertWhereUserId(user_id);
         List<Comment> commentList = getAllComment();
+        model.addAttribute("user_id", user.getId());
         model.addAttribute("user", user);
         model.addAttribute("expertList", expertList);
         model.addAttribute("commentList", commentList);
-        return "index";
+        return "index2";
     }
+
+
+
+
 
     @DELETE
     @RequestMapping(value = { "/myexperts/delete/{expert_id}"})

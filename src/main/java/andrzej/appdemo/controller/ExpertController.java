@@ -51,6 +51,9 @@ public class ExpertController {
     @RequestMapping(value = "/addexpert")
     public String registerForm(Model model) {
         Expert e = new Expert();
+        String username = UserUtilities.getLoggedUser();
+        User user = userService.findUserByEmail(username);
+        model.addAttribute("user_id", user.getId());
         model.addAttribute("expert", e);
         return "addexpert";
     }

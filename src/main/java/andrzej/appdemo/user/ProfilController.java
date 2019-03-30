@@ -31,6 +31,8 @@ public class ProfilController {
         User user = userService.findUserByEmail(username);
         int nrRoli = user.getRoles().iterator().next().getId();
         user.setNrRoli(nrRoli);
+   ;
+        model.addAttribute("user_id", user.getId());
         model.addAttribute("user", user);
         return "profil";
     }

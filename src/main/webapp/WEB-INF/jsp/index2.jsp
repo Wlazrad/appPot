@@ -76,7 +76,11 @@
                     <h5 class="card-title"><c:out value="${e.name }"/></h5>
                     <p class="card-text"><c:out value="${e.job }"/></p>
                     <a href="${pageContext.request.contextPath}/viewexpert/${e.expert_id } " class="btn btn-primary">Info</a>
-                    <a href="${pageContext.request.contextPath}/viewexpert/comment/${e.expert_id} " class="btn btn-primary">Wystaw opinie</a>
+                    <a href="${pageContext.request.contextPath}/viewexpert/comment/${e.expert_id} "
+                       class="btn btn-primary">Wystaw opinie</a>
+                    <a href="${pageContext.request.contextPath}/photo/${e.expert_id} " class="btn btn-primary">Zdjęcie</a>
+
+                    <a href="${pageContext.request.contextPath}/myexperts/delete/${e.expert_id} " class="btn btn-primary">Usuń</a>
                 </div>
             </div>
         </div>

@@ -14,6 +14,7 @@
 
 		</sec:authorize>
 		<sec:authorize access="isAuthenticated()">
+<a class="btn btn-primary" role="button" href="${pageContext.request.contextPath}/myexperts/${user_id}"><s:message code="menu.my"/></a>&nbsp;&nbsp;
 
 			<a class="btn btn-primary" role="button" href="/profil"><s:message code="menu.profil"/></a>&nbsp;&nbsp;
 			<a class="btn btn-primary" role="button" href="/logout"><s:message code="menu.logout"/></a>&nbsp;&nbsp;
