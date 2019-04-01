@@ -57,6 +57,7 @@
     <table class="tableback" style="opacity: 0.9">
 
         <tr>
+            <td width="150" align="center"><b>  </b></td>
             <td width="150" align="center"><b><s:message code="expert.name"/></b></td>
             <td width="150" align="center"><b><s:message code="expert.location"/></b></td>
             <td width="150" align="center"><b><s:message code="expert.job"/></b></td>
@@ -64,11 +65,21 @@
         </tr>
         <c:forEach var="e" items="${expertList }">
             <tr>
-                <td><img src="..." class="rounded float-left" alt="..."></td>
+<%--                <td><img src="data:image/jpeg;base64,${e.image_url}" class="rounded float-left" alt="..."></td>--%>
+                <td>
+                <div class="card" style="width: 18rem;">
+                    <img src="data:image/jpeg;base64,${e.image_url}" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">Zrealizowana usługa</p>
+                    </div>
+                </div>
+                </td>
                 <td align="center"  width="150" align="center"><c:out value="${e.name }" /></td>
                 <td align="center"  width="150" align="center"><c:out value="${e.location }" /></td>
                 <td align="center"  width="150" align="center"><c:out value="${e.job }" /></td>
                 <td align="center"  width="150" align="center"><c:out value="${e.number }" /></td>
+
+
 
             </tr>
         </c:forEach>

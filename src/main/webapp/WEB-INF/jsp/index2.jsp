@@ -51,7 +51,7 @@
 
 </div>
 <div class="tableback">
-    <p class="text-primary"><s:message code="info.description2"/></p>
+    <p><s:message code="info.description2"/></p>
     <div class="shadow p-3 mb-5 bg-white rounded">Wpisz słowa kluczowe np. Lokalizację, która Cię intersuje
 
         <div type="text" style="width: 1000px; padding: 10px;" class="input-group mb-3">
@@ -67,9 +67,7 @@
 
 <div class="row">
     <c:forEach var="e" items="${expertList }">
-
         <div class="col-sm-10 col-md-4" style="text-align: center;">
-
             <div class="card" style="width: 15rem;">
                 <img src="data:image/jpeg;base64,${e.image_url}" class="card-img-top" alt="${e.image_url}">
                 <div class="card-body">
@@ -79,14 +77,13 @@
                     <a href="${pageContext.request.contextPath}/viewexpert/comment/${e.expert_id} "
                        class="btn btn-primary">Wystaw opinie</a>
                     <a href="${pageContext.request.contextPath}/photo/${e.expert_id} " class="btn btn-primary">Zdjęcie</a>
-
                     <a href="${pageContext.request.contextPath}/myexperts/delete/${e.expert_id} " class="btn btn-primary">Usuń</a>
                 </div>
             </div>
         </div>
-
-
     </c:forEach>
+    <br>
+    <br>
 </div>
 </div>
 </body>

@@ -19,7 +19,7 @@
 <%@include file="/WEB-INF/incl/menu.app" %>
 </div>
 
-<h2><s:message code="menu.register"/></h2>
+<h2 align="center"><s:message code="menu.register"/></h2>
 
 <p align="center">
 		<c:out value="${message }" />

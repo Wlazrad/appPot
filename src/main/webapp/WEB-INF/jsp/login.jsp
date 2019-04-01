@@ -28,7 +28,7 @@
 <body>
 <%@include file="/WEB-INF/incl/menu.app" %>
 <h2>
-    <s:message code="logowanie.pageName"/>
+    <h2 align="center"><s:message code="logowanie.pageName"/>
 </h2>
 
 <form id="loginForm" action="/login" method="POST">

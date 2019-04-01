@@ -5,29 +5,17 @@ import andrzej.appdemo.comment.CommentService;
 import andrzej.appdemo.entityexp.Expert;
 import andrzej.appdemo.entityexp.ExpertService;
 import andrzej.appdemo.user.User;
-import andrzej.appdemo.user.UserRepository;
 import andrzej.appdemo.user.UserService;
 import andrzej.appdemo.utilities.UserUtilities;
-import andrzej.appdemo.validators.UserRegisterValidator;
-import org.apache.tomcat.util.http.fileupload.IOUtils;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.context.MessageSource;
-import org.springframework.security.authentication.AnonymousAuthenticationToken;
-import org.springframework.security.core.Authentication;
-import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
-import org.springframework.ui.ModelMap;
 import org.springframework.validation.BindingResult;
-import org.springframework.web.bind.annotation.*;
-import org.springframework.web.multipart.MultipartFile;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RequestMapping;
 
 import javax.ws.rs.GET;
 import javax.ws.rs.POST;
-import java.io.*;
-import java.nio.file.Files;
-import java.nio.file.Path;
-import java.nio.file.Paths;
 import java.time.LocalDateTime;
 import java.util.List;
 import java.util.Locale;
@@ -43,8 +31,6 @@ public class ExpertController {
 
     @Autowired
     private CommentService commentService;
-
-
 
 
     @GET
@@ -109,14 +95,14 @@ public class ExpertController {
 
 
     @GET
-    @RequestMapping(value ="/lalka")
-    public String openExpertList(Model model){
+    @RequestMapping(value = "/lalka")
+    public String openExpertList(Model model) {
         List<Expert> expertList = getAllExperts();
-        model.addAttribute("expertList",expertList);
+        model.addAttribute("expertList", expertList);
         return "indexsearch";
     }
 
-    private List<Expert> getAllExperts(){
+    private List<Expert> getAllExperts() {
         List<Expert> expertList = expertService.findAll();
         return expertList;
     }
@@ -125,11 +111,9 @@ public class ExpertController {
     @RequestMapping(value = "/search/{searchWord}")
     public String openSearchUserPage(@PathVariable("searchWord") String searchWord, Model model) {
         List<Expert> expertList = expertService.findAllSearch(searchWord);
-    model.addAttribute("expertList", expertList);
-    return "indexsearch";
+        model.addAttribute("expertList", expertList);
+        return "indexsearch";
     }
-
-
 
 
 //    @GET
@@ -144,19 +128,17 @@ public class ExpertController {
     @RequestMapping(value = "/viewexpert/{expert_id}")
     public String openSearchUserPage(@PathVariable int expert_id,
                                      Model model) {
+        String username = UserUtilities.getLoggedUser();
+        User user = userService.findUserByEmail(username);
         Expert expert = expertService.getExpertByIdEquals(expert_id);
 //        User user = userService.getUserByIdEquals(user_id);
 //        model.addAttribute(user);
         List<Comment> comments = commentService.getAllExpertComments(expert_id);
         System.out.println(comments.size());
-        model.addAttribute("comments",comments);
+        model.addAttribute("comments", comments);
         model.addAttribute(expert);
         return "viewexpert";
     }
-
-
-
-
 
 
 }

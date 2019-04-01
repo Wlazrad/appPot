@@ -35,6 +35,12 @@ public class FileUploadController {
 
     @RequestMapping("/photo/{expert_id}")
     public String UploadPage(@PathVariable("expert_id") int expert_id, Model model){
+        String username = UserUtilities.getLoggedUser();
+        User user = userService.findUserByEmail(username);
+        Expert expert = new Expert();
+        expert = expertService.getExpertByIdEquals(expert_id);
+
+        if(expert.getUser_id()==user.getId())
         model.addAttribute(expert_id);
         return "uploadview";
     }

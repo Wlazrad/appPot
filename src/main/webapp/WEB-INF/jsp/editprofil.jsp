@@ -60,8 +60,8 @@
 
 			<tr>
 				<td colspan="2" align="center" bgcolor="#fff">
-					<input type="submit" value="<s:message code="button.save"/>" />
-					<input type="button" value="<s:message code="button.cancel"/>" 
+					<input type="submit" class="btn btn-primary" value="<s:message code="button.save"/>" />
+					<input type="button" class="btn btn-primary" value="<s:message code="button.cancel"/>"
 						onclick="window.location.href='${pageContext.request.contextPath}/'"/>
 				</td>
 			</tr>

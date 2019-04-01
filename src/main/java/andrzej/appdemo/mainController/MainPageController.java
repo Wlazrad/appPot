@@ -50,12 +50,13 @@ public class MainPageController {
     }
 
     @GET
-    @RequestMapping(value = { "/myexperts/{user_id}"})
-    public String showMyExperts(@PathVariable int user_id, Model model) {
+    @RequestMapping(value = { "/myexperts"})
+    public String showMyExperts( Model model) {
         String username = UserUtilities.getLoggedUser();
         User user = userService.findUserByEmail(username);
-        List<Expert> expertList = expertService.getExpertWhereUserId(user_id);
+        List<Expert> expertList = expertService.getExpertWhereUserId(user.getId());
         List<Comment> commentList = getAllComment();
+
         model.addAttribute("user_id", user.getId());
         model.addAttribute("user", user);
         model.addAttribute("expertList", expertList);
