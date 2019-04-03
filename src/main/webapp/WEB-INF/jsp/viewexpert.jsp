@@ -27,11 +27,13 @@
 <tr>
         <%--<td><img src="/resources/images/<c:out value="${e.id}"/>.jpg" alt="/resources/images/<c:out value="${e.id}"/>.jpg" class="img-thumbnail"></td>--%>
             <h4>Imię : <td align="center"  width="150" align="center"><c:out value="${expert.name }" /></td></h4>
+            <br>
             <h4>Lokalizacja : <td align="center"  width="150" align="center"><c:out value="${expert.location }" /></td></h4>
             <br>
             <h4>Wykonywana praca : <td align="center"  width="150" align="center"><c:out value="${expert.job }" /></td></h4>
             <br>
             <h4>Numer telefonu : <td align="center"  width="150" align="center"><c:out value="${expert.number }" /></td></h4>
+            <br>
 </tr>
 
 
@@ -43,7 +45,6 @@
 
 
         <tr>
-
             <td width="150" align="center"><b><s:message code="comment.content"/></b></td>
             <td width="150" align="center"><b><s:message code="comment.createdAt"/></b></td>
         </tr>
@@ -54,11 +55,6 @@
                     <%--<td><img src="/resources/images/<c:out value="${e.id}"/>.jpg" alt="/resources/images/<c:out value="${e.id}"/>.jpg" class="img-thumbnail"></td>--%>
                         <td class="text-break" align="center"  width="150" align="center"><c:out value="${c.content }" /></td>
                         <td align="center"  width="150" align="center"><c:out value="${c.createdAt }" /></td>
-
-
-
-
-
             </tr>
         </c:forEach>
 
@@ -69,7 +65,7 @@
     <%--<c:param name="id" value="${e.id}"/>--%>
 <%--</c:url>--%>
 
-<a href="${pageContext.request.contextPath}/index " align="center" class="btn btn-primary">Wróć</a>
+<h2 align="center"><a href="${pageContext.request.contextPath}/index " align="center" class="btn btn-primary">Wróć</a>
 
 </body>
 </html>

@@ -94,13 +94,7 @@ public class ExpertController {
     }
 
 
-    @GET
-    @RequestMapping(value = "/lalka")
-    public String openExpertList(Model model) {
-        List<Expert> expertList = getAllExperts();
-        model.addAttribute("expertList", expertList);
-        return "indexsearch";
-    }
+
 
     private List<Expert> getAllExperts() {
         List<Expert> expertList = expertService.findAll();

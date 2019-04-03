@@ -67,8 +67,8 @@
 
 			<tr>
 				<td colspan="2" align="center" bgcolor="#fff">
-					<input class="form-control" type="submit" value="<s:message code="button.register"/>" />
-					<input class="form-control" type="button"  value="<s:message code="button.cancel"/>"
+					<input class="btn btn-success" type="submit" value="<s:message code="button.register"/>" />
+					<input class="btn btn-success" type="button"  value="<s:message code="button.cancel"/>"
 						onclick="window.location.href='${pageContext.request.contextPath}/'"/>
 				</td>
 			</tr>

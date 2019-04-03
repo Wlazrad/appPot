@@ -50,6 +50,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 		.antMatchers("/adduser").permitAll()
 		.antMatchers("/viewexpert/{expert_id}").permitAll()
 		.antMatchers("/resources/images/{expert_id}").permitAll()
+                .antMatchers("/search/{searchWord}").permitAll()
 		.antMatchers("/activatelink/**").permitAll()
 				.antMatchers("/myexperts/{expert_id}").hasAnyAuthority("ROLE_USER")
 //		.antMatchers("/admin").hasAuthority("ROLE_ADMIN")
