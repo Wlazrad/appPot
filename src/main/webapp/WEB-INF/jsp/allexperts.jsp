@@ -19,9 +19,10 @@
 
 <div class="container">
 
-<c:forEach var="e" items="${expertList}">
+<c:forEach var="e" items="${}">
 <table class="table table-dark ">
    <tr>
+
        <td><c:out value="${e.id}"/></td>
        <td><c:out value="${e.job}"/></td>
        <td><c:out value="${e.years}"/></td>

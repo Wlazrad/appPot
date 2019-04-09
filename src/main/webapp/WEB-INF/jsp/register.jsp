@@ -19,7 +19,7 @@
 <%@include file="/WEB-INF/incl/menu.app" %>
 </div>
 
-<h2><s:message code="menu.register"/></h2>
+<h2 align="center"><s:message code="menu.register"/></h2>
 
 <p align="center">
 		<c:out value="${message }" />
@@ -33,8 +33,7 @@
 
 			<tr>
 				<td width="130" align="right" ><s:message code="register.name"/></td>
-				<td width="270" align="left"><sf:input path="name"
-						size="28" id="name" /></td>
+				<td width="270" align="left"><sf:input path="name" size="28" id="name" style="width: 200px; padding: 2px;" class="input-group mb-3"/></td>
 			</tr>
 			<tr>
 				<td colspan="2" align="center"><font color="red"><sf:errors path="name"/></font></td>
@@ -43,7 +42,7 @@
 			<tr>
 				<td width="130" align="right"><s:message code="register.lastName"/></td>
 				<td width="270" align="left"><sf:input path="lastName"
-						size="28" /></td>
+						size="28" style="width: 200px; padding: 2px;" class="input-group mb-3"/></td>
 			</tr>
 
 			<tr>
@@ -52,7 +51,7 @@
 
 			<tr>
 				<td width="130" align="right" ><s:message code="register.email"/></td>
-				<td width="270" align="left"><sf:input path="email" size="28" /></td>
+				<td width="270" align="left"><sf:input path="email" size="28" style="width: 200px; padding: 2px;" class="input-group mb-3"/></td>
 			</tr>
 			<tr>
 				<td colspan="2" align="center"><font color="red"><sf:errors path="email"/></font></td>
@@ -68,8 +67,8 @@
 
 			<tr>
 				<td colspan="2" align="center" bgcolor="#fff">
-					<input class="form-control" type="submit" value="<s:message code="button.register"/>" />
-					<input class="form-control" type="button"  value="<s:message code="button.cancel"/>"
+					<input class="btn btn-success" type="submit" value="<s:message code="button.register"/>" />
+					<input class="btn btn-success" type="button"  value="<s:message code="button.cancel"/>"
 						onclick="window.location.href='${pageContext.request.contextPath}/'"/>
 				</td>
 			</tr>

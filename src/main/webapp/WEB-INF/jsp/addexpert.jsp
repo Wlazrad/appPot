@@ -36,6 +36,11 @@
 
     <table width="500" border="0" cellpadding="4" cellspacing="1"
            align="center">
+        <tr >
+            <td width="130" align="right" ><s:message code="expert.name"/></td>
+            <td width="270" align="left"><sf:input path="name"
+            /></td>
+        </tr>
 
         <tr >
             <td width="130" align="right" ><s:message code="expert.job"/></td>
@@ -58,14 +63,14 @@
         </tr>
 
         <tr>
-            <td width="130" align="right"><s:message code="expert.project"/></td>
-            <td width="270" align="left"><sf:input path="project"
+            <td width="130" align="right"><s:message code="expert.details"/></td>
+            <td width="270" align="left"><sf:input path="details"
                                                    size="28" /></td>
         </tr>
 
         <tr>
-            <td width="130" align="right"><s:message code="expert.years"/></td>
-            <td width="270" align="left"><sf:input path="years"
+            <td width="130" align="right"><s:message code="expert.number"/></td>
+            <td width="270" align="left"><sf:input path="number"
                                                    size="28" /></td>
         </tr>
 
@@ -77,8 +82,8 @@
 
         <tr>
             <td colspan="2" align="center" bgcolor="#fff">
-                <input type="submit" class="btn btn-primary" value="<s:message code="button.register"/>" />
-                <input type="button" class="btn btn-primary" value="<s:message code="button.cancel"/>"
+                <input type="submit" class="btn btn-success" value="<s:message code="button.register"/>" />
+                <input type="button" class="btn btn-success" value="<s:message code="button.cancel"/>"
                        onclick="window.location.href='${pageContext.request.contextPath}/'"/>
             </td>
         </tr>

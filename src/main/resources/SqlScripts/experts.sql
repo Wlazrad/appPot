@@ -73,6 +73,14 @@ CONSTRAINT FK_USER FOREIGN KEY (`user_id`)REFERENCES `user` (`user_id`),
 CONSTRAINT FK_COMENT FOREIGN KEY (`comment_id`)REFERENCES `comment`(`comment_id`)
 )ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
+DROP TABLE IF EXISTS `user_expert`;
+CREATE TABLE `user_expert` (
+                             `user_id` int(11) NOT NULL,
+                             `expert_id` int(11) NOT NULL,
+                             PRIMARY KEY (`user_id`,expert_id),
+                              CONSTRAINT FK_USER FOREIGN KEY (`user_id`)REFERENCES `user` (`user_id`),
+                             CONSTRAINT FK_EXPERT FOREIGN KEY (`expert_id`)REFERENCES `expert`(`expert_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8
 
 
 

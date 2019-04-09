@@ -48,6 +48,11 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 		.antMatchers("/login").permitAll()
 		.antMatchers("/register").permitAll()
 		.antMatchers("/adduser").permitAll()
+		.antMatchers("/viewexpert/{expert_id}").permitAll()
+		.antMatchers("/resources/images/{expert_id}").permitAll()
+                .antMatchers("/search/{searchWord}").permitAll()
+		.antMatchers("/activatelink/**").permitAll()
+				.antMatchers("/myexperts/{expert_id}").hasAnyAuthority("ROLE_USER")
 //		.antMatchers("/admin").hasAuthority("ROLE_ADMIN")
 		.anyRequest().authenticated()
 		.and().csrf().disable()
@@ -59,6 +64,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 		.and().logout().logoutRequestMatcher(new AntPathRequestMatcher("/logout"))
 		.logoutSuccessUrl("/")
 		.and().exceptionHandling().accessDeniedPage("/denied");
+
 	}
 	
 
