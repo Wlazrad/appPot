@@ -53,11 +53,7 @@
 			<scope>runtime</scope>
 		</dependency>
 <!-- naprawia -->
-		<dependency>
-			<groupId>org.hibernate</groupId>
-			<artifactId>hibernate-entitymanager</artifactId>
-			<version>4.3.8.Final</version>
-		</dependency>
+
 
 
 		<!-- https://mvnrepository.com/artifact/org.springframework.security/spring-security-taglibs -->
