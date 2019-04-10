@@ -153,7 +153,16 @@
       <change beforePath="$PROJECT_DIR$/../Zelent/portfolio/index.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Zelent/portfolio/scscs.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Zelent/portfolio/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_4_0_5_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_entitymanager_4_3_8_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_18_1_GA.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_annotations_1_2_0_Beta1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_spec_javax_transaction_jboss_transaction_api_1_2_spec_1_0_0_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/appPot.iml" beforeDir="false" afterPath="$PROJECT_DIR$/appPot.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../gry/KeyMaster/.idea/KeyMaster.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../gry/KeyMaster/.idea/misc.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../gry/KeyMaster/.idea/modules.xml" beforeDir="false" />
@@ -402,11 +411,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="55" column="20" selection-start-line="55" selection-start-column="20" selection-end-line="55" selection-end-column="20" />
+            <state relative-caret-position="340">
+              <caret line="55" selection-start-line="55" selection-end-line="55" />
             </state>
           </provider>
         </entry>
@@ -443,11 +452,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="36" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
+            <state relative-caret-position="204">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
             </state>
           </provider>
         </entry>
@@ -568,8 +577,8 @@
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/viewexpert.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/register.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/addexpert.jsp" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -971,7 +980,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="698577000" />
+    <option name="totallyTimeSpent" value="698952000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -984,7 +993,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="921" y="0" width="864" height="1047" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49918434" visible="true" weight="0.26119402" />
       <window_info id="Structure" order="1" sideWeight="0.5008157" side_tool="true" weight="0.27470142" />
@@ -1005,21 +1013,21 @@
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5018587" side_tool="true" weight="0.29978117" />
       <window_info anchor="bottom" id="TODO" order="8" weight="0.32932165" />
       <window_info anchor="bottom" id="Spring" order="9" weight="0.32827735" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.032822758" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32719395" />
-      <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.32932165" />
-      <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Log Viewer" order="14" />
-      <window_info anchor="bottom" id="DB Execution Console" order="15" />
-      <window_info anchor="bottom" id="Log Manager" order="16" />
-      <window_info anchor="bottom" id="SFDX" order="17" />
-      <window_info anchor="bottom" id="Execute Anonymous" order="18" />
-      <window_info anchor="bottom" id="Anonymous Apex" order="19" />
-      <window_info anchor="bottom" id="Salesforce" order="20" />
-      <window_info anchor="bottom" id="SOQL Query" order="21" />
-      <window_info active="true" anchor="bottom" id="Database Console" order="22" visible="true" weight="0.32932165" />
-      <window_info anchor="bottom" id="Thumbnails" order="23" weight="0.32932165" />
-      <window_info anchor="bottom" id="Version Control" order="24" weight="0.3261105" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32719395" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" weight="0.32932165" />
+      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Log Viewer" order="13" />
+      <window_info anchor="bottom" id="DB Execution Console" order="14" />
+      <window_info anchor="bottom" id="Log Manager" order="15" />
+      <window_info anchor="bottom" id="SFDX" order="16" />
+      <window_info anchor="bottom" id="Execute Anonymous" order="17" />
+      <window_info anchor="bottom" id="Anonymous Apex" order="18" />
+      <window_info anchor="bottom" id="Salesforce" order="19" />
+      <window_info anchor="bottom" id="SOQL Query" order="20" />
+      <window_info active="true" anchor="bottom" id="Database Console" order="21" visible="true" weight="0.32932165" />
+      <window_info anchor="bottom" id="Thumbnails" order="22" weight="0.32932165" />
+      <window_info anchor="bottom" id="Version Control" order="23" weight="0.3261105" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="24" visible="true" weight="0.43873087" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24972856" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -1417,13 +1425,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="55" column="20" selection-start-line="55" selection-start-column="20" selection-end-line="55" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/messages.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="122">
@@ -1433,8 +1434,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="36" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
+        <state relative-caret-position="204">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="55" selection-start-line="55" selection-end-line="55" />
         </state>
       </provider>
     </entry>
