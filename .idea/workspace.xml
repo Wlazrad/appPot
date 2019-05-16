@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="5e4c511e-b20a-4c69-942c-7688381005ea" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -105,8 +103,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-70">
-              <caret line="18" column="8" lean-forward="true" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
+            <state relative-caret-position="136">
+              <caret line="41" column="75" selection-start-line="41" selection-start-column="75" selection-end-line="41" selection-end-column="75" />
             </state>
           </provider>
         </entry>
@@ -653,12 +651,12 @@
       <workItem from="1554791332268" duration="182000" />
       <workItem from="1554831005154" duration="5000000" />
       <workItem from="1558031289042" duration="911000" />
-      <workItem from="1558032974424" duration="594000" />
+      <workItem from="1558032974424" duration="1144000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="700457000" />
+    <option name="totallyTimeSpent" value="701007000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -683,7 +681,7 @@
       <window_info id="Query Editor" order="8" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32932165" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49814126" visible="true" weight="0.24143302" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49814126" weight="0.24143302" />
       <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
       <window_info anchor="bottom" id="Debug" order="5" weight="0.39869988" />
@@ -704,8 +702,8 @@
       <window_info anchor="bottom" id="SOQL Query" order="20" />
       <window_info active="true" anchor="bottom" id="Database Console" order="21" visible="true" weight="0.32932165" />
       <window_info anchor="bottom" id="Thumbnails" order="22" weight="0.32932165" />
-      <window_info anchor="bottom" id="Version Control" order="23" weight="0.3261105" />
-      <window_info anchor="bottom" id="Terminal" order="24" weight="0.43729904" />
+      <window_info anchor="bottom" id="Version Control" order="23" weight="0.32554516" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="24" visible="true" weight="0.43613708" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24972856" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -1120,8 +1118,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-70">
-          <caret line="18" column="8" lean-forward="true" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
+        <state relative-caret-position="136">
+          <caret line="41" column="75" selection-start-line="41" selection-start-column="75" selection-end-line="41" selection-end-column="75" />
         </state>
       </provider>
     </entry>
