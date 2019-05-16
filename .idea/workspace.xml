@@ -2,341 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5e4c511e-b20a-4c69-942c-7688381005ea" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Hello/src/main/java/MyServlet1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hello/src/main/java/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hello/src/main/webapp/request.xhtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HelloWord/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HelloWord/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HelloWord/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HelloWord/src/main/webapp/calc.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HelloWord/src/main/webapp/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HelloWord/src/test/java/servlets/Oblicz.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OracleBaza/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OracleBaza/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OracleBaza/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OracleBaza/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OracleBaza/src/main/java/model/Crud.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OracleBaza/src/main/java/model/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OracleBaza/src/main/java/model/EmployeeCrud.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OracleBaza/src/main/resources/META-INF/persistence.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Practice/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Server/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Server/src/SocketServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spring/src/main/resources/templates/knight.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Spring/src/main/resources/templates/knightform.HTML" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../appdemo/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../appdemo/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../appdemo/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../appdemo/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../baza/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../baza/.idea/libraries/ojdbc6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../baza/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../baza/src/main/java/OraConnTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../baza/src/main/java/TestJDBC.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../comtempstart/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../comtempstart/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../comtempstart/src/main/webapp/page.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dataBase/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dataBase/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dataBase/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dataBase/src/main/java/DeleteEntityApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dataBase/src/main/java/GetAllEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dataBase/src/main/java/GetEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dataBase/src/main/java/HQL/Delete.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dataBase/src/main/java/HQL/DwukierukowaRelacja/ByDirectionApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dataBase/src/main/java/HQL/FromApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dataBase/src/main/java/HQL/FunkcjeAgregujace.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dataBase/src/main/java/HQL/NamedParameters.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dataBase/src/main/java/HQL/Select.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dataBase/src/main/java/HQL/UpdateApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dataBase/src/main/java/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dataBase/src/main/java/ONEHQL/HqlONE.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dataBase/src/main/java/OneToOne/CascadeApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dataBase/src/main/java/OneToOne/Company.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dataBase/src/main/java/OneToOne/CompanyDetail.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dataBase/src/main/java/OneToOne/Department.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dataBase/src/main/java/OneToOne/JedenDoJednego.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dataBase/src/main/java/OneToOne/OneToManyDeleteApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dataBase/src/main/java/OneToOne/OneToManyGetApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dataBase/src/main/java/OneToOne/OneToManyHQL.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dataBase/src/main/java/OneToOne/OneToManySaveApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dataBase/src/main/java/OneToOne/Property.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dataBase/src/main/java/UpdateDetached.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dataBase/src/main/java/UpdateManagedEntityApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dataBase/src/main/java/entity/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../projektySzymka/ProgrammingOffers-f0bd2e9c65c728fd9b559dd6cb190342e3804b10/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../projektySzymka/ProgrammingOffers-f0bd2e9c65c728fd9b559dd6cb190342e3804b10/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../projektySzymka/ProgrammingOffers-f0bd2e9c65c728fd9b559dd6cb190342e3804b10/.idea/libraries/Maven__com_fasterxml_classmate_1_3_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../projektySzymka/ProgrammingOffers-f0bd2e9c65c728fd9b559dd6cb190342e3804b10/.idea/libraries/Maven__com_google_protobuf_protobuf_java_3_6_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../projektySzymka/ProgrammingOffers-f0bd2e9c65c728fd9b559dd6cb190342e3804b10/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../projektySzymka/ProgrammingOffers-f0bd2e9c65c728fd9b559dd6cb190342e3804b10/.idea/libraries/Maven__dom4j_dom4j_1_6_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../projektySzymka/ProgrammingOffers-f0bd2e9c65c728fd9b559dd6cb190342e3804b10/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../projektySzymka/ProgrammingOffers-f0bd2e9c65c728fd9b559dd6cb190342e3804b10/.idea/libraries/Maven__javax_servlet_jstl_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../projektySzymka/ProgrammingOffers-f0bd2e9c65c728fd9b559dd6cb190342e3804b10/.idea/libraries/Maven__javax_validation_validation_api_1_1_0_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../projektySzymka/ProgrammingOffers-f0bd2e9c65c728fd9b559dd6cb190342e3804b10/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_13.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../projektySzymka/ProgrammingOffers-f0bd2e9c65c728fd9b559dd6cb190342e3804b10/.idea/libraries/Maven__org_aspectj_aspectjrt_1_8_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../projektySzymka/ProgrammingOffers-f0bd2e9c65c728fd9b559dd6cb190342e3804b10/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_5_0_1_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../projektySzymka/ProgrammingOffers-f0bd2e9c65c728fd9b559dd6cb190342e3804b10/.idea/libraries/Maven__org_hibernate_hibernate_core_5_2_9_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../projektySzymka/ProgrammingOffers-f0bd2e9c65c728fd9b559dd6cb190342e3804b10/.idea/libraries/Maven__org_hibernate_hibernate_validator_5_4_1_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../projektySzymka/ProgrammingOffers-f0bd2e9c65c728fd9b559dd6cb190342e3804b10/.idea/libraries/Maven__org_hibernate_javax_persistence_hibernate_jpa_2_1_api_1_0_0_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../projektySzymka/ProgrammingOffers-f0bd2e9c65c728fd9b559dd6cb190342e3804b10/.idea/libraries/Maven__org_javassist_javassist_3_20_0_GA.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../projektySzymka/ProgrammingOffers-f0bd2e9c65c728fd9b559dd6cb190342e3804b10/.idea/libraries/Maven__org_jboss_jandex_2_0_3_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../projektySzymka/ProgrammingOffers-f0bd2e9c65c728fd9b559dd6cb190342e3804b10/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_0_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../projektySzymka/ProgrammingOffers-f0bd2e9c65c728fd9b559dd6cb190342e3804b10/.idea/libraries/Maven__org_jboss_spec_javax_transaction_jboss_transaction_api_1_2_spec_1_0_1_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../projektySzymka/ProgrammingOffers-f0bd2e9c65c728fd9b559dd6cb190342e3804b10/.idea/libraries/Maven__org_mindrot_jbcrypt_0_3m.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../projektySzymka/ProgrammingOffers-f0bd2e9c65c728fd9b559dd6cb190342e3804b10/.idea/libraries/Maven__org_projectlombok_lombok_1_18_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../projektySzymka/ProgrammingOffers-f0bd2e9c65c728fd9b559dd6cb190342e3804b10/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_24.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../projektySzymka/ProgrammingOffers-f0bd2e9c65c728fd9b559dd6cb190342e3804b10/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_24.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../projektySzymka/ProgrammingOffers-f0bd2e9c65c728fd9b559dd6cb190342e3804b10/.idea/libraries/Maven__org_springframework_data_spring_data_commons_1_13_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../projektySzymka/ProgrammingOffers-f0bd2e9c65c728fd9b559dd6cb190342e3804b10/.idea/libraries/Maven__org_springframework_data_spring_data_jpa_1_11_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../projektySzymka/ProgrammingOffers-f0bd2e9c65c728fd9b559dd6cb190342e3804b10/.idea/libraries/Maven__org_springframework_spring_aop_4_3_7_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../projektySzymka/ProgrammingOffers-f0bd2e9c65c728fd9b559dd6cb190342e3804b10/.idea/libraries/Maven__org_springframework_spring_beans_4_3_7_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../projektySzymka/ProgrammingOffers-f0bd2e9c65c728fd9b559dd6cb190342e3804b10/.idea/libraries/Maven__org_springframework_spring_context_4_3_7_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../projektySzymka/ProgrammingOffers-f0bd2e9c65c728fd9b559dd6cb190342e3804b10/.idea/libraries/Maven__org_springframework_spring_core_4_3_7_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../projektySzymka/ProgrammingOffers-f0bd2e9c65c728fd9b559dd6cb190342e3804b10/.idea/libraries/Maven__org_springframework_spring_expression_4_3_7_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../projektySzymka/ProgrammingOffers-f0bd2e9c65c728fd9b559dd6cb190342e3804b10/.idea/libraries/Maven__org_springframework_spring_jdbc_4_3_7_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../projektySzymka/ProgrammingOffers-f0bd2e9c65c728fd9b559dd6cb190342e3804b10/.idea/libraries/Maven__org_springframework_spring_orm_4_3_7_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../projektySzymka/ProgrammingOffers-f0bd2e9c65c728fd9b559dd6cb190342e3804b10/.idea/libraries/Maven__org_springframework_spring_tx_4_3_7_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../projektySzymka/ProgrammingOffers-f0bd2e9c65c728fd9b559dd6cb190342e3804b10/.idea/libraries/Maven__org_springframework_spring_web_4_3_7_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../projektySzymka/ProgrammingOffers-f0bd2e9c65c728fd9b559dd6cb190342e3804b10/.idea/libraries/Maven__org_springframework_spring_webmvc_4_3_7_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../projektySzymka/ProgrammingOffers-f0bd2e9c65c728fd9b559dd6cb190342e3804b10/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../projektySzymka/ProgrammingOffers-f0bd2e9c65c728fd9b559dd6cb190342e3804b10/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../projektySzymka/ProgrammingOffers-f0bd2e9c65c728fd9b559dd6cb190342e3804b10/ProgrammingOffers.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../rate/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../rate/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ARcourse" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CodeWars" beforeDir="false" afterPath="$PROJECT_DIR$/../CodeWars" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../InfoShare/java-koans" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../InfoShare/jjdzl1javase1/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../InfoShare/jjdzl1javase1/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../InfoShare/jjdzl1javase1/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../InfoShare/jjdzl1javase1/out/production/main/com/infoshare/academy/Account.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../InfoShare/jjdzl1javase1/out/production/main/com/infoshare/academy/Application.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../InfoShare/jjdzl1javase1/out/production/main/com/infoshare/academy/Card.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../InfoShare/jjdzl1javase1/out/production/main/com/infoshare/academy/StringTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../InfoShare/jjdzl1javase1/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../InfoShare/jjdzl1javase1/src/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../InfoShare/jjdzl1javase1/src/.idea/src.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../InfoShare/jjdzl1javase1/src/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../InfoShare/jjdzl1javase1/src/main/java/com/infoshare/academy/Account.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../InfoShare/jjdzl1javase1/src/main/java/com/infoshare/academy/Application.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../InfoShare/jjdzl1javase1/src/main/java/com/infoshare/academy/Card.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../InfoShare/jjdzl1javase1/src/main/java/com/infoshare/academy/StringTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../InfoShare/jjdzl1javase1/src/main/main.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../InfoShare/zad8/Account.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../InfoShare/zad8/Application.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../InfoShare/zad8/Card.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../InfoShare/zad8/StringTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../IntelliJ/HEAD" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../IntelliJ/config" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../IntelliJ/objects/pack/pack-6f0d4a08d09879944c8bb478c0a60d9acd9ce6cf.idx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../IntelliJ/objects/pack/pack-6f0d4a08d09879944c8bb478c0a60d9acd9ce6cf.pack" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../IntelliJ/objects/pack/pack-fd04105b114ea1f4a5fa379f5c988586c1dfa5cc.idx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../IntelliJ/objects/pack/pack-fd04105b114ea1f4a5fa379f5c988586c1dfa5cc.pack" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../IntelliJ/refs/heads/master" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Studies" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Zelent/portfolio/LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Zelent/portfolio/README.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Zelent/portfolio/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Zelent/portfolio/css/animation.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Zelent/portfolio/css/fontello-codes.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Zelent/portfolio/css/fontello-embedded.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Zelent/portfolio/css/fontello-ie7-codes.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Zelent/portfolio/css/fontello-ie7.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Zelent/portfolio/css/fontello.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Zelent/portfolio/demo.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Zelent/portfolio/font/fontello.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Zelent/portfolio/font/fontello.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Zelent/portfolio/font/fontello.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Zelent/portfolio/font/fontello.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Zelent/portfolio/font/fontello.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Zelent/portfolio/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Zelent/portfolio/scscs.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Zelent/portfolio/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_4_0_5_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_entitymanager_4_3_8_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_18_1_GA.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_annotations_1_2_0_Beta1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_spec_javax_transaction_jboss_transaction_api_1_2_spec_1_0_0_Final.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/appPot.iml" beforeDir="false" afterPath="$PROJECT_DIR$/appPot.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gry/KeyMaster/.idea/KeyMaster.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gry/KeyMaster/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gry/KeyMaster/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gry/KeyMaster/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gry/KeyMaster/KeyMaster/.classpath" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gry/KeyMaster/KeyMaster/.project" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gry/KeyMaster/KeyMaster/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gry/KeyMaster/KeyMaster/bin/Dzwieki/Sound$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gry/KeyMaster/KeyMaster/bin/Dzwieki/Sound.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gry/KeyMaster/KeyMaster/bin/Dzwieki/sound1.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gry/KeyMaster/KeyMaster/bin/Dzwieki/sound2.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gry/KeyMaster/KeyMaster/bin/Dzwieki/sound3.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gry/KeyMaster/KeyMaster/bin/Dzwieki/sound4.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gry/KeyMaster/KeyMaster/bin/Dzwieki/sound5.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gry/KeyMaster/KeyMaster/bin/Dzwieki/sound6.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gry/KeyMaster/KeyMaster/bin/Dzwieki/sound7.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gry/KeyMaster/KeyMaster/bin/Dzwieki/sound8.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gry/KeyMaster/KeyMaster/bin/Grafika/LoadImage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gry/KeyMaster/KeyMaster/bin/Grafika/Main/KeyMaster.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gry/KeyMaster/KeyMaster/bin/Grafika/Main/key1.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gry/KeyMaster/KeyMaster/bin/Grafika/Main/key2.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gry/KeyMaster/KeyMaster/bin/Grafika/Main/key3.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gry/KeyMaster/KeyMaster/bin/Grafika/Main/key4.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gry/KeyMaster/KeyMaster/bin/Grafika/Main/key5.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gry/KeyMaster/KeyMaster/bin/Grafika/Main/key6.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gry/KeyMaster/KeyMaster/bin/Grafika/Main/key7.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gry/KeyMaster/KeyMaster/bin/Grafika/Main/level.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gry/KeyMaster/KeyMaster/bin/Grafika/Main/mlot.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gry/KeyMaster/KeyMaster/bin/Grafika/Main/next.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gry/KeyMaster/KeyMaster/bin/Grafika/Main/reset.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gry/KeyMaster/KeyMaster/bin/Grafika/Main/start.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gry/KeyMaster/KeyMaster/bin/Grafika/Main/stopa.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gry/KeyMaster/KeyMaster/bin/Grafika/Sprite.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gry/KeyMaster/KeyMaster/bin/Grafika/plansza.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gry/KeyMaster/KeyMaster/bin/Main/KeyMaster.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gry/KeyMaster/KeyMaster/bin/Main/key1.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gry/KeyMaster/KeyMaster/bin/Main/key2.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gry/KeyMaster/KeyMaster/bin/Main/key3.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gry/KeyMaster/KeyMaster/bin/Main/key4.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gry/KeyMaster/KeyMaster/bin/Main/key5.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gry/KeyMaster/KeyMaster/bin/Main/key6.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gry/KeyMaster/KeyMaster/bin/Main/key7.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gry/KeyMaster/KeyMaster/bin/Main/level.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gry/KeyMaster/KeyMaster/bin/Main/mlot.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gry/KeyMaster/KeyMaster/bin/Main/next.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gry/KeyMaster/KeyMaster/bin/Main/reset.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gry/KeyMaster/KeyMaster/bin/Main/start.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gry/KeyMaster/KeyMaster/bin/Main/stopa.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gry/KeyMaster/KeyMaster/bin/Plansza/Plansza.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gry/KeyMaster/KeyMaster/bin/Plansza/plansza1.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gry/KeyMaster/KeyMaster/bin/Plansza/plansza10.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gry/KeyMaster/KeyMaster/bin/Plansza/plansza11.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gry/KeyMaster/KeyMaster/bin/Plansza/plansza12.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gry/KeyMaster/KeyMaster/bin/Plansza/plansza13.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gry/KeyMaster/KeyMaster/bin/Plansza/plansza14.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gry/KeyMaster/KeyMaster/bin/Plansza/plansza15.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gry/KeyMaster/KeyMaster/bin/Plansza/plansza16.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gry/KeyMaster/KeyMaster/bin/Plansza/plansza17.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gry/KeyMaster/KeyMaster/bin/Plansza/plansza18.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gry/KeyMaster/KeyMaster/bin/Plansza/plansza19.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gry/KeyMaster/KeyMaster/bin/Plansza/plansza2.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gry/KeyMaster/KeyMaster/bin/Plansza/plansza20.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gry/KeyMaster/KeyMaster/bin/Plansza/plansza21.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gry/KeyMaster/KeyMaster/bin/Plansza/plansza22.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gry/KeyMaster/KeyMaster/bin/Plansza/plansza23.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gry/KeyMaster/KeyMaster/bin/Plansza/plansza24.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gry/KeyMaster/KeyMaster/bin/Plansza/plansza25.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gry/KeyMaster/KeyMaster/bin/Plansza/plansza26.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gry/KeyMaster/KeyMaster/bin/Plansza/plansza27.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gry/KeyMaster/KeyMaster/bin/Plansza/plansza28.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gry/KeyMaster/KeyMaster/bin/Plansza/plansza29.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gry/KeyMaster/KeyMaster/bin/Plansza/plansza3.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gry/KeyMaster/KeyMaster/bin/Plansza/plansza30.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gry/KeyMaster/KeyMaster/bin/Plansza/plansza31.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gry/KeyMaster/KeyMaster/bin/Plansza/plansza32.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gry/KeyMaster/KeyMaster/bin/Plansza/plansza33.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gry/KeyMaster/KeyMaster/bin/Plansza/plansza34.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gry/KeyMaster/KeyMaster/bin/Plansza/plansza35.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gry/KeyMaster/KeyMaster/bin/Plansza/plansza36.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gry/KeyMaster/KeyMaster/bin/Plansza/plansza37.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gry/KeyMaster/KeyMaster/bin/Plansza/plansza38.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gry/KeyMaster/KeyMaster/bin/Plansza/plansza39.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gry/KeyMaster/KeyMaster/bin/Plansza/plansza4.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gry/KeyMaster/KeyMaster/bin/Plansza/plansza40.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gry/KeyMaster/KeyMaster/bin/Plansza/plansza5.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gry/KeyMaster/KeyMaster/bin/Plansza/plansza6.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gry/KeyMaster/KeyMaster/bin/Plansza/plansza7.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gry/KeyMaster/KeyMaster/bin/Plansza/plansza8.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gry/KeyMaster/KeyMaster/bin/Plansza/plansza9.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gry/KeyMaster/KeyMaster/bin/Play/Play.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gry/KeyMaster/KeyMaster/bin/Play/Postac.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gry/KeyMaster/KeyMaster/src/Dzwieki/Sound.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gry/KeyMaster/KeyMaster/src/Dzwieki/sound1.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gry/KeyMaster/KeyMaster/src/Dzwieki/sound2.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gry/KeyMaster/KeyMaster/src/Dzwieki/sound3.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gry/KeyMaster/KeyMaster/src/Dzwieki/sound4.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gry/KeyMaster/KeyMaster/src/Dzwieki/sound5.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gry/KeyMaster/KeyMaster/src/Dzwieki/sound6.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gry/KeyMaster/KeyMaster/src/Dzwieki/sound7.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gry/KeyMaster/KeyMaster/src/Dzwieki/sound8.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gry/KeyMaster/KeyMaster/src/Grafika/LoadImage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gry/KeyMaster/KeyMaster/src/Grafika/Sprite.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gry/KeyMaster/KeyMaster/src/Grafika/plansza.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gry/KeyMaster/KeyMaster/src/Plansza/Plansza.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gry/KeyMaster/KeyMaster/src/Plansza/plansza1.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gry/KeyMaster/KeyMaster/src/Plansza/plansza10.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gry/KeyMaster/KeyMaster/src/Plansza/plansza11.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gry/KeyMaster/KeyMaster/src/Plansza/plansza12.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gry/KeyMaster/KeyMaster/src/Plansza/plansza13.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gry/KeyMaster/KeyMaster/src/Plansza/plansza14.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gry/KeyMaster/KeyMaster/src/Plansza/plansza15.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gry/KeyMaster/KeyMaster/src/Plansza/plansza16.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gry/KeyMaster/KeyMaster/src/Plansza/plansza17.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gry/KeyMaster/KeyMaster/src/Plansza/plansza18.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gry/KeyMaster/KeyMaster/src/Plansza/plansza19.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gry/KeyMaster/KeyMaster/src/Plansza/plansza2.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gry/KeyMaster/KeyMaster/src/Plansza/plansza20.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gry/KeyMaster/KeyMaster/src/Plansza/plansza21.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gry/KeyMaster/KeyMaster/src/Plansza/plansza22.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gry/KeyMaster/KeyMaster/src/Plansza/plansza23.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gry/KeyMaster/KeyMaster/src/Plansza/plansza24.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gry/KeyMaster/KeyMaster/src/Plansza/plansza25.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gry/KeyMaster/KeyMaster/src/Plansza/plansza26.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gry/KeyMaster/KeyMaster/src/Plansza/plansza27.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gry/KeyMaster/KeyMaster/src/Plansza/plansza28.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gry/KeyMaster/KeyMaster/src/Plansza/plansza29.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gry/KeyMaster/KeyMaster/src/Plansza/plansza3.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gry/KeyMaster/KeyMaster/src/Plansza/plansza30.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gry/KeyMaster/KeyMaster/src/Plansza/plansza31.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gry/KeyMaster/KeyMaster/src/Plansza/plansza32.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gry/KeyMaster/KeyMaster/src/Plansza/plansza33.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gry/KeyMaster/KeyMaster/src/Plansza/plansza34.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gry/KeyMaster/KeyMaster/src/Plansza/plansza35.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gry/KeyMaster/KeyMaster/src/Plansza/plansza36.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gry/KeyMaster/KeyMaster/src/Plansza/plansza37.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gry/KeyMaster/KeyMaster/src/Plansza/plansza38.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gry/KeyMaster/KeyMaster/src/Plansza/plansza39.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gry/KeyMaster/KeyMaster/src/Plansza/plansza4.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gry/KeyMaster/KeyMaster/src/Plansza/plansza40.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gry/KeyMaster/KeyMaster/src/Plansza/plansza5.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gry/KeyMaster/KeyMaster/src/Plansza/plansza6.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gry/KeyMaster/KeyMaster/src/Plansza/plansza7.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gry/KeyMaster/KeyMaster/src/Plansza/plansza8.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gry/KeyMaster/KeyMaster/src/Plansza/plansza9.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gry/KeyMaster/KeyMaster/src/Play/Play.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gry/KeyMaster/KeyMaster/src/Play/Postac.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../test" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wzorce_projektowe/Adapter/.idea/description.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wzorce_projektowe/Adapter/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wzorce_projektowe/Adapter/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wzorce_projektowe/Adapter/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wzorce_projektowe/Adapter/.idea/project-template.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wzorce_projektowe/Adapter/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wzorce_projektowe/Adapter/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wzorce_projektowe/Adapter/Adapter.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wzorce_projektowe/Adapter/src/Adapter/I_Notebook.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wzorce_projektowe/Adapter/src/Adapter/I_Notebook_v2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wzorce_projektowe/Adapter/src/Adapter/Note.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wzorce_projektowe/Adapter/src/Adapter/Notebook.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wzorce_projektowe/Adapter/src/Adapter/NotebookAdapter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wzorce_projektowe/Adapter/src/Adapter/Notebook_v2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wzorce_projektowe/Adapter/src/adapterPattern/SomeSystem.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wzorce_projektowe/Singleton/.idea/description.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wzorce_projektowe/Singleton/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wzorce_projektowe/Singleton/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wzorce_projektowe/Singleton/.idea/project-template.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wzorce_projektowe/Singleton/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wzorce_projektowe/Singleton/out/production/wzorce_projektowe/Singleton/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wzorce_projektowe/Singleton/out/production/wzorce_projektowe/Singleton/Singleton.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wzorce_projektowe/Singleton/out/production/wzorce_projektowe/Singleton/Singleton2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wzorce_projektowe/Singleton/src/Singleton/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wzorce_projektowe/Singleton/src/Singleton/Singleton.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wzorce_projektowe/Singleton/src/Singleton/Singleton2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wzorce_projektowe/Singleton/wzorce_projektowe.iml" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -411,29 +79,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="55" selection-start-line="55" selection-end-line="55" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/andrzej/appdemo/AppdemoApplication.java">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/messages.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/andrzej/appdemo/ServletInitializer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+            <state relative-caret-position="390">
+              <caret line="26" column="30" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -446,17 +96,42 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/andrzej/appdemo/admin/AdminPageController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
+            <state relative-caret-position="195">
+              <caret line="41" selection-start-line="41" selection-end-line="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-70">
+              <caret line="18" column="8" lean-forward="true" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+        <entry file="file://$PROJECT_DIR$/src/main/java/andrzej/appdemo/entityexp/Expert.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" selection-start-line="12" selection-end-line="12" />
+            <state relative-caret-position="315">
+              <caret line="29" column="25" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#2618#2619#0" expanded="true" />
+                <element signature="e#2648#2649#0" expanded="true" />
+                <element signature="e#2691#2692#0" expanded="true" />
+                <element signature="e#2729#2730#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/andrzej/appdemo/user/User.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -469,7 +144,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/andrzej/appdemo/mainController/LoginPageController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
+            <state relative-caret-position="75">
               <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
             </state>
           </provider>
@@ -478,7 +153,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/andrzej/appdemo/user/ProfilController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="663">
+            <state relative-caret-position="405">
               <caret line="39" selection-start-line="39" selection-end-line="39" />
             </state>
           </provider>
@@ -487,7 +162,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/andrzej/appdemo/user/RegisterController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
+            <state relative-caret-position="75">
               <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
             </state>
           </provider>
@@ -522,8 +197,8 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/login.jsp" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/uploadview.jsp" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/login.jsp" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -577,8 +252,8 @@
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/viewexpert.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/register.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/addexpert.jsp" />
-        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
       </list>
     </option>
   </component>
@@ -600,10 +275,11 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="921" />
-    <option name="width" value="864" />
-    <option name="height" value="1047" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="67" />
+    <option name="y" value="25" />
+    <option name="width" value="650" />
+    <option name="height" value="743" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -611,7 +287,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -793,7 +469,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -976,11 +652,13 @@
       <workItem from="1554741221478" duration="1850000" />
       <workItem from="1554791332268" duration="182000" />
       <workItem from="1554831005154" duration="5000000" />
+      <workItem from="1558031289042" duration="911000" />
+      <workItem from="1558032974424" duration="594000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="698952000" />
+    <option name="totallyTimeSpent" value="700457000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -992,9 +670,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="921" y="0" width="864" height="1047" extended-state="0" />
+    <frame x="67" y="25" width="1299" height="743" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49918434" visible="true" weight="0.26119402" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49918434" visible="true" weight="0.16573705" />
       <window_info id="Structure" order="1" sideWeight="0.5008157" side_tool="true" weight="0.27470142" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -1005,7 +683,7 @@
       <window_info id="Query Editor" order="8" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32932165" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49814126" weight="0.30196938" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49814126" visible="true" weight="0.24143302" />
       <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
       <window_info anchor="bottom" id="Debug" order="5" weight="0.39869988" />
@@ -1027,7 +705,7 @@
       <window_info active="true" anchor="bottom" id="Database Console" order="21" visible="true" weight="0.32932165" />
       <window_info anchor="bottom" id="Thumbnails" order="22" weight="0.32932165" />
       <window_info anchor="bottom" id="Version Control" order="23" weight="0.3261105" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="24" visible="true" weight="0.43873087" />
+      <window_info anchor="bottom" id="Terminal" order="24" weight="0.43729904" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24972856" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -1038,6 +716,7 @@
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info anchor="right" id="Bean Validation" order="9" weight="0.32899022" />
+      <window_info anchor="right" id="Key Promoter X" order="10" />
     </layout>
     <layout-to-restore>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49918434" visible="true" weight="0.26280835" />
@@ -1133,20 +812,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/andrzej/appdemo/entityexp/ExpertServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="17" column="10" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/error.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/static/images/20.jpg" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/static/images/14.jpg" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/static/images/9.jpg" />
@@ -1244,20 +909,6 @@
           <caret line="60" column="137" selection-start-line="60" selection-start-column="81" selection-end-line="60" selection-end-column="137" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/andrzej/appdemo/entityexp/Expert.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="29" column="25" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2618#2619#0" expanded="true" />
-            <element signature="e#2648#2649#0" expanded="true" />
-            <element signature="e#2691#2692#0" expanded="true" />
-            <element signature="e#2729#2730#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1362,13 +1013,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/andrzej/appdemo/user/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/login.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
@@ -1384,9 +1028,6 @@
     <entry file="file://$PROJECT_DIR$/src/main/resources/static/images/rerererer.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/comment.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/allexperts.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
@@ -1394,24 +1035,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/andrzej/appdemo/mainController/LoginPageController.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        <state relative-caret-position="170">
+          <caret line="48" selection-start-line="48" selection-end-line="48" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/andrzej/appdemo/user/ProfilController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/andrzej/appdemo/AppdemoApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="39" selection-start-line="39" selection-end-line="39" />
+        <state relative-caret-position="150">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/andrzej/appdemo/user/RegisterController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/andrzej/appdemo/ServletInitializer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        <state relative-caret-position="75">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/messages.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="30" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
         </state>
       </provider>
     </entry>
@@ -1420,29 +1068,60 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/andrzej/appdemo/admin/AdminPageController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
+        <state relative-caret-position="195">
+          <caret line="41" selection-start-line="41" selection-end-line="41" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/messages.properties">
+    <entry file="file://$PROJECT_DIR$/src/main/java/andrzej/appdemo/entityexp/Expert.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="122">
-          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        <state relative-caret-position="315">
+          <caret line="29" column="25" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2618#2619#0" expanded="true" />
+            <element signature="e#2648#2649#0" expanded="true" />
+            <element signature="e#2691#2692#0" expanded="true" />
+            <element signature="e#2729#2730#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/andrzej/appdemo/user/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/comment.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/andrzej/appdemo/mainController/LoginPageController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/andrzej/appdemo/user/ProfilController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/andrzej/appdemo/user/RegisterController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="55" selection-start-line="55" selection-end-line="55" />
+        <state relative-caret-position="-70">
+          <caret line="18" column="8" lean-forward="true" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
         </state>
       </provider>
     </entry>
