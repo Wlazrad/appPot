@@ -1,4 +1,4 @@
-package andrzej.appdemo.controller;
+package andrzej.appdemo.entityexp;
 
 import andrzej.appdemo.comment.Comment;
 import andrzej.appdemo.comment.CommentService;
@@ -92,8 +92,6 @@ public class ExpertController {
 
         return "index";
     }
-
-
 
 
     private List<Expert> getAllExperts() {

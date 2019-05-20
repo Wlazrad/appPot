@@ -1,4 +1,4 @@
-package andrzej.appdemo.controller;
+package andrzej.appdemo.entityexp;
 
 import andrzej.appdemo.entityexp.Expert;
 import andrzej.appdemo.entityexp.ExpertService;
@@ -58,10 +58,11 @@ public class FileUploadController {
 
             try{
                 Files.write(fileNameAndPath, file.getBytes());
-                byte[] fileContent = FileUtils.readFileToByteArray(new File("C:\\RW\\git\\appPot\\src\\main\\resources\\static\\images\\"+expert_id+".jpg"));
-                String encodedString = Base64.getEncoder().encodeToString(fileContent);
+                //byte[] fileContent = FileUtils.readFileToByteArray(new File("C:\\RW\\git\\appPot\\src\\main\\resources\\static\\images\\"+expert_id+".jpg"));
+                String encodedString = Base64.getEncoder().encodeToString(file.getBytes());
                 System.out.println(encodedString);
                 expertService.updatePhoto(expert_id,encodedString);
+
             }catch (IOException e){
                 e.printStackTrace();
             }

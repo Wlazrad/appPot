@@ -1,6 +1,6 @@
 package andrzej.appdemo;
 
-import andrzej.appdemo.controller.FileUploadController;
+import andrzej.appdemo.entityexp.FileUploadController;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ComponentScan;
