@@ -28,6 +28,15 @@ public interface UserRepository extends JpaRepository<User, Integer> {
     @Query("UPDATE User u SET u.active =:activeParam WHERE u.activationCode =:activationCode")
     public void updateActivation(@Param("activeParam") int activeParam, @Param("activationCode") String activationCode);
 
+
+//    @Query(value = "INSERT INTO `role` VALUES (1,'ROLE_ADMIN');" +
+//            "INSERT INTO `role` VALUES (2,'ROLE_USER')", nativeQuery = true)
+//    public void insertRole();
+
+
+
+
+
 }
 
 
