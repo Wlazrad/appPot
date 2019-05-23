@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5e4c511e-b20a-4c69-942c-7688381005ea" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/andrzej/appdemo/entityexp/ExpertController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/andrzej/appdemo/entityexp/ExpertController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/andrzej/appdemo/user/RegisterController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/andrzej/appdemo/user/RegisterController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/andrzej/appdemo/user/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/andrzej/appdemo/user/UserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/andrzej/appdemo/user/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/andrzej/appdemo/user/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/andrzej/appdemo/user/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/andrzej/appdemo/user/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/andrzej/appdemo/entityexp/ExpertController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/andrzej/appdemo/entityexp/ExpertController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/1.jpg" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -85,7 +77,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="345">
@@ -106,8 +98,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/andrzej/appdemo/user/UserRepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="259">
-              <caret line="35" selection-start-line="35" selection-end-line="35" />
+            <state relative-caret-position="199">
+              <caret line="31" selection-start-line="31" selection-end-line="34" />
               <folding>
                 <element signature="e#0#65#1" expanded="true" />
                 <element signature="e#0#99#1" expanded="true" />
@@ -120,8 +112,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/andrzej/appdemo/user/UserService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="210">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
             </state>
           </provider>
         </entry>
@@ -129,12 +121,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/andrzej/appdemo/user/UserServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="16" column="27" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
-              <folding>
-                <element signature="e#2043#2044#0" expanded="true" />
-                <element signature="e#2072#2073#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="900">
+              <caret line="71" selection-start-line="71" selection-end-line="71" />
             </state>
           </provider>
         </entry>
@@ -148,11 +136,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/andrzej/appdemo/user/RegisterController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="45" selection-start-line="45" selection-end-line="45" />
+            <state relative-caret-position="795">
+              <caret line="66" column="9" selection-start-line="66" selection-start-column="9" selection-end-line="66" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -171,15 +159,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="390">
               <caret line="26" column="30" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/andrzej/appdemo/validators/UserRegisterValidator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="21" column="22" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -265,11 +244,11 @@
         <option value="$PROJECT_DIR$/src/main/java/andrzej/appdemo/entityexp/ExpertService.java" />
         <option value="$PROJECT_DIR$/src/main/java/andrzej/appdemo/entityexp/FileUploadController.java" />
         <option value="$PROJECT_DIR$/src/main/java/andrzej/appdemo/entityexp/ExpertController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/andrzej/appdemo/user/UserService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/andrzej/appdemo/user/UserServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/andrzej/appdemo/user/RegisterController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/andrzej/appdemo/user/UserRepository.java" />
         <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/andrzej/appdemo/user/UserRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/andrzej/appdemo/user/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/andrzej/appdemo/user/UserService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/andrzej/appdemo/user/RegisterController.java" />
       </list>
     </option>
   </component>
@@ -673,12 +652,12 @@
       <workItem from="1558292739357" duration="2321000" />
       <workItem from="1558371832921" duration="4205000" />
       <workItem from="1558432850126" duration="669000" />
-      <workItem from="1558616935827" duration="4882000" />
+      <workItem from="1558616935827" duration="5502000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="719428000" />
+    <option name="totallyTimeSpent" value="720048000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -693,7 +672,7 @@
     <frame x="0" y="-30" width="1366" height="798" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49918434" visible="true" weight="0.17776097" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49918434" visible="true" weight="0.17776097" />
       <window_info id="Structure" order="1" sideWeight="0.5008157" side_tool="true" weight="0.27470142" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -704,7 +683,7 @@
       <window_info id="Query Editor" order="8" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32932165" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49814126" visible="true" weight="0.28827587" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49814126" weight="0.28827587" />
       <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
       <window_info anchor="bottom" id="Debug" order="5" weight="0.39869988" />
@@ -725,8 +704,8 @@
       <window_info anchor="bottom" id="SOQL Query" order="20" />
       <window_info active="true" anchor="bottom" id="Database Console" order="21" visible="true" weight="0.32932165" />
       <window_info anchor="bottom" id="Thumbnails" order="22" weight="0.32932165" />
-      <window_info anchor="bottom" id="Version Control" order="23" weight="0.32554516" />
-      <window_info anchor="bottom" id="Terminal" order="24" weight="0.18156028" />
+      <window_info anchor="bottom" id="Version Control" order="23" weight="0.32551724" />
+      <window_info anchor="bottom" id="Terminal" order="24" visible="true" weight="0.18068965" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24972856" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -838,13 +817,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/andrzej/appdemo/validators/ChangePasswordValidator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/andrzej/appdemo/utilities/UserUtilities.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -1116,13 +1088,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/andrzej/appdemo/user/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/andrzej/appdemo/user/RoleRepository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -1137,36 +1102,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/andrzej/appdemo/user/RegisterController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="45" selection-start-line="45" selection-end-line="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/andrzej/appdemo/user/UserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="16" column="27" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
-          <folding>
-            <element signature="e#2043#2044#0" expanded="true" />
-            <element signature="e#2072#2073#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/andrzej/appdemo/user/UserRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="35" selection-start-line="35" selection-end-line="35" />
-          <folding>
-            <element signature="e#0#65#1" expanded="true" />
-            <element signature="e#0#99#1" expanded="true" />
-            <element signature="e#0#80#1" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/messages.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
@@ -1178,6 +1113,42 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
           <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/andrzej/appdemo/user/UserRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="31" selection-start-line="31" selection-end-line="34" />
+          <folding>
+            <element signature="e#0#65#1" expanded="true" />
+            <element signature="e#0#99#1" expanded="true" />
+            <element signature="e#0#80#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/andrzej/appdemo/user/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="900">
+          <caret line="71" selection-start-line="71" selection-end-line="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/andrzej/appdemo/user/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/images/1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/andrzej/appdemo/user/RegisterController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="795">
+          <caret line="66" column="9" selection-start-line="66" selection-start-column="9" selection-end-line="66" selection-end-column="9" />
         </state>
       </provider>
     </entry>
