@@ -1,9 +1,7 @@
-package andrzej.appdemo.controller;
+package andrzej.appdemo.entityexp;
 
 import andrzej.appdemo.comment.Comment;
 import andrzej.appdemo.comment.CommentService;
-import andrzej.appdemo.entityexp.Expert;
-import andrzej.appdemo.entityexp.ExpertService;
 import andrzej.appdemo.user.User;
 import andrzej.appdemo.user.UserService;
 import andrzej.appdemo.utilities.UserUtilities;
@@ -25,6 +23,7 @@ public class ExpertController {
 
     @Autowired
     private ExpertService expertService;
+
 
     @Autowired
     private UserService userService;
@@ -92,8 +91,6 @@ public class ExpertController {
 
         return "index";
     }
-
-
 
 
     private List<Expert> getAllExperts() {

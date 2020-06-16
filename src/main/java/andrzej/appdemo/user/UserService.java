@@ -13,4 +13,5 @@ public interface UserService {
 	User getUserByIdEquals(int id);
 	public void updateUserActivation(int activeCode, String activationCode);
 
+
 }

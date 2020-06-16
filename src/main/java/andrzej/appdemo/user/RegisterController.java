@@ -41,6 +41,7 @@ public class RegisterController {
 
         String returnPage = null;
 
+
         User userExist = userService.findUserByEmail(user.getEmail());
 
         new UserRegisterValidator().validateEmailExist(userExist, result);
@@ -69,8 +70,7 @@ public class RegisterController {
         userService.updateUserActivation(1, activationCode);
         model.addAttribute("message", messageSource.getMessage("sukces", null, locale));
 
+
         return "index";
     }
-
-
 }
